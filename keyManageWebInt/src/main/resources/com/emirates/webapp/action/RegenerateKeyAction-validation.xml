@@ -1,0 +1,50 @@
+<!DOCTYPE validators PUBLIC "-//OpenSymphony Group//XWork Validator 1.0//EN"
+        "http://www.opensymphony.com/xwork/xwork-validator-1.0.dtd">
+<validators>
+    <field name="key.oldPassword">
+        <field-validator type="requiredstring">
+            <message key="errors.required"/>
+        </field-validator>
+         <field-validator type="stringlength">  
+             <param name="maxLength">10</param>  
+             <message>  
+                 Password cannot contain more than 10 characters  
+             </message>  
+         </field-validator>          
+    </field>
+    <field name="key.newPassword">
+        <field-validator type="requiredstring">
+            <message key="errors.required"/>
+        </field-validator>
+         <field-validator type="stringlength">  
+             <param name="maxLength">10</param>  
+             <message>  
+                 Password cannot contain more than 10 characters  
+             </message>  
+         </field-validator>          
+    </field>
+    <field name="key.confirmPassword">
+        <field-validator type="requiredstring">
+            <message key="errors.required"/>
+        </field-validator>
+        <field-validator type="fieldexpression">
+            <param name="expression">
+                (key.confirmPassword.equals(key.newPassword))
+            </param>
+            <message key="errors.twofields"/>
+        </field-validator>
+         <field-validator type="stringlength">  
+             <param name="maxLength">10</param>  
+             <message>  
+                 Password cannot contain more than 10 characters  
+             </message>  
+         </field-validator>          
+        
+    </field>
+    <field name="key.group_id">
+        <field-validator type="requiredstring">
+            <message>Please select atleast One Group Id.</message>
+        </field-validator>
+    </field>
+
+</validators>

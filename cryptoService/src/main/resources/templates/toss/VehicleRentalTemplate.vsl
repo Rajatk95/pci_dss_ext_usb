@@ -1,0 +1,246 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <meta
+ content="text/html; charset=ISO-8859-1"
+ http-equiv="content-type">
+  <title></title>
+</head>
+<body>
+<table x:str=""
+ style="border-collapse: collapse;  width: 538pt;" border="0"
+ cellpadding="0" cellspacing="0" width="717">
+  <col style="width: 123pt;"
+ width="164"> <col
+ style="width: 116pt;" width="155"> <col
+ style="width: 85pt;" width="113"> <col
+ style="width: 118pt;" width="157"> <col
+ style="width: 96pt;" width="128"> <tbody>
+    <tr style="height: 12.75pt; background-color: rgb(192, 192, 192);"
+ height="17">
+      <td class="xl28"
+ style="height: 12.75pt; font-family: Verdana; font-weight: bold; width: 179px;"
+ height="17"><small>SERVICE
+INFORMATION</small></td>
+      <td class="xl29"
+ style="font-family: Verdana; width: 135px;"><small>&nbsp;</small></td>
+      <td class="xl29"
+ style="width: 85pt; font-family: Verdana;" width="113"><small>&nbsp;</small></td>
+      <td class="xl29"
+ style="width: 118pt; font-family: Verdana;" width="157"><small>&nbsp;</small></td>
+      <td class="xl30"
+ style="width: 96pt; font-family: Verdana;" width="128"><small>&nbsp;</small></td>
+    </tr>
+    <tr style="height: 12.75pt;"
+ height="17">
+      <td class="xl27"
+ style="height: 12.75pt; font-family: Verdana; width: 179px;"
+ height="17"><small>VEHICLE
+RENTAL</small></td>
+      <td class="xl43" colspan="2"
+ style="font-family: Verdana; width: 135px;"><small>$vehicleRental.getChild("rentalInfo").getText()</small></td>
+      <td style="font-family: Verdana;"
+ class="xl24"><small>&nbsp;</small></td>
+      <td style="font-family: Verdana;"
+ class="xl25"><small>&nbsp;</small></td>
+    </tr>
+    <tr style="height: 12.75pt;"
+ height="17">
+      <td class="xl44"
+ style="border-top: medium none; height: 12.75pt; font-family: Verdana; width: 179px;"
+ height="17"><small>Service
+Reference</small></td>
+      <td colspan="4" class="xl45"
+ style="border-right: 0.5pt solid black; font-family: Verdana; width: 135px;"
+ x:str="3567231/12 "><small>$vehicleRental.getChild("serviceReference").getText()<span
+ style="">&nbsp;</span></small></td>
+    </tr>
+    <tr style="height: 12.75pt;"
+ height="17">
+      <td class="xl41"
+ style="border-top: medium none; height: 12.75pt; font-family: Verdana; width: 179px;"
+ height="17"><small>Service</small></td>
+      <td class="xl35"
+ style="border-top: medium none; font-family: Verdana; width: 135px;"><small>$vehicleRental.getChild("service").getText()</small></td>
+      <td class="xl34"
+ style="border-top: medium none; font-family: Verdana;"><small>&nbsp;</small></td>
+      <td class="xl34"
+ style="border-top: medium none; font-family: Verdana;"><small>&nbsp;</small></td>
+      <td class="xl38"
+ style="border-top: medium none; font-family: Verdana;"><small>&nbsp;</small></td>
+    </tr>
+    <tr style="height: 12.75pt;"
+ height="17">
+      <td class="xl41"
+ style="border-top: medium none; height: 12.75pt; font-family: Verdana; width: 179px;"
+ height="17"><small>Category</small></td>
+      <td class="xl35" colspan="2"
+ style="font-family: Verdana; width: 135px;"><small>$vehicleRental.getChild("category").getText()</small></td>
+      <td class="xl34"
+ style="border-top: medium none; font-family: Verdana;"><small>&nbsp;</small></td>
+      <td class="xl38"
+ style="border-top: medium none; font-family: Verdana;"><small>&nbsp;</small></td>
+    </tr>
+    <tr style="height: 12.75pt;"
+ height="17">
+      <td class="xl41"
+ style="border-top: medium none; height: 12.75pt; font-family: Verdana; width: 179px;"
+ height="17"><small>Depo
+Code</small></td>
+      <td class="xl35"
+ style="border-top: medium none; font-family: Verdana; width: 135px;"><small>$vehicleRental.getChild("depoCode").getText()</small></td>
+      <td class="xl34"
+ style="border-top: medium none; font-family: Verdana;"><small>&nbsp;</small></td>
+      <td class="xl34"
+ style="border-top: medium none; font-family: Verdana;"><small>&nbsp;</small></td>
+      <td class="xl38"
+ style="border-top: medium none; font-family: Verdana;"><small>&nbsp;</small></td>
+    </tr>
+    <tr style="height: 12.75pt;"
+ height="17">
+      <td class="xl41"
+ style="border-top: medium none; height: 12.75pt; font-family: Verdana; width: 179px;"
+ height="17"><small>Pick
+Up City, Country</small></td>
+      <td class="xl35"
+ style="border-top: medium none; font-family: Verdana; width: 135px;"><small>$vehicleRental.getChild("pickUpCity").getText(), $vehicleRental.getChild("pickUpCountry").getText()</small></td>
+      <td class="xl34"
+ style="border-top: medium none; font-family: Verdana;"><small>&nbsp;</small></td>
+      <td class="xl34"
+ style="border-top: medium none; font-family: Verdana;"><small>&nbsp;</small></td>
+      <td class="xl38"
+ style="border-top: medium none; font-family: Verdana;"><small>&nbsp;</small></td>
+    </tr>
+    <tr style="height: 12.75pt;"
+ height="17">
+      <td class="xl26"
+ style="border-top: medium none; height: 12.75pt; font-family: Verdana; width: 179px;"
+ height="17"><small>Pickup
+Depot / Date / Time</small></td>
+      <td class="xl35" colspan="3"
+ style="font-family: Verdana; width: 135px;"><small>$vehicleRental.getChild("pickUpDepot").getText() / $vehicleRental.getChild("pickUpDate").getText()</small></td>
+      <td class="xl38"
+ style="border-top: medium none; font-family: Verdana;"><small>&nbsp;</small></td>
+    </tr>
+    <tr style="height: 12.75pt;"
+ height="17">
+      <td class="xl26"
+ style="border-top: medium none; height: 12.75pt; font-family: Verdana; width: 179px;"
+ height="17"><small>Drop
+off Depot / Date / Time</small></td>
+      <td class="xl35" colspan="3"
+ style="font-family: Verdana; width: 135px;"><small>$vehicleRental.getChild("dropUpDepot").getText() / $vehicleRental.getChild("dropUpDate").getText()</small></td>
+      <td class="xl38"
+ style="border-top: medium none; font-family: Verdana;"><small>&nbsp;</small></td>
+    </tr>
+    <tr style="height: 12.75pt;"
+ height="17">
+      <td class="xl26"
+ style="border-top: medium none; height: 12.75pt; font-family: Verdana; width: 179px;"
+ height="17"><small>Units</small></td>
+      <td class="xl37"
+ style="border-top: medium none; border-left: medium none; font-family: Verdana; width: 135px;"
+ x:num=""><small>$vehicleRental.getChild("units").getText()</small></td>
+      <td class="xl34"
+ style="border-top: medium none; font-family: Verdana;"><small>&nbsp;</small></td>
+      <td class="xl34"
+ style="border-top: medium none; font-family: Verdana;"><small>&nbsp;</small></td>
+      <td class="xl38"
+ style="border-top: medium none; font-family: Verdana;"><small>&nbsp;</small></td>
+    </tr>
+    <tr style="height: 12.75pt;"
+ height="17">
+      <td class="xl26"
+ style="border-top: medium none; height: 12.75pt; font-family: Verdana; width: 179px;"
+ height="17"><small>Date(s)</small></td>
+      <td class="xl37" colspan="2"
+ style="font-family: Verdana; width: 135px;"><small>$vehicleRental.getChild("dates").getText()</small></td>
+      <td class="xl34"
+ style="border-top: medium none; font-family: Verdana;"><small>&nbsp;</small></td>
+      <td class="xl38"
+ style="border-top: medium none; font-family: Verdana;"><small>&nbsp;</small></td>
+    </tr>
+    <tr style="height: 12.75pt;"
+ height="17">
+      <td class="xl26"
+ style="border-top: medium none; height: 12.75pt; font-family: Verdana; width: 179px;"
+ height="17"><small>Pax</small></td>
+      <td class="xl35"
+ style="border-top: medium none; border-left: medium none; font-family: Verdana; width: 135px;"><small>$vehicleRental.getChild("paxTotal").getText()</small></td>
+      <td class="xl34"
+ style="border-top: medium none; font-family: Verdana;"><small>&nbsp;</small></td>
+      <td class="xl34"
+ style="border-top: medium none; font-family: Verdana;"><small>&nbsp;</small></td>
+      <td class="xl38"
+ style="border-top: medium none; font-family: Verdana;"><small>&nbsp;</small></td>
+    </tr>
+    <tr style="height: 12.75pt;"
+ height="17">
+      <td class="xl26"
+ style="border-top: medium none; height: 12.75pt; font-family: Verdana; width: 179px;"
+ height="17"><small>Pax
+Allocation</small></td>
+      <td class="xl36" colspan="2"
+ style="font-family: Verdana; width: 135px;"><small>
+ 								#foreach ($pax in $vehicleRental.getChild("paxAllocation").getChildren("pax"))
+								$pax.getText()&nbsp;<br>
+								#end<span style="">&nbsp;
+      </span></small></td>
+      <td class="xl34"
+ style="border-top: medium none; font-family: Verdana;"><small>&nbsp;</small></td>
+      <td class="xl38"
+ style="border-top: medium none; font-family: Verdana;"><small>&nbsp;</small></td>
+    </tr>
+    <tr style="height: 12.75pt;"
+ height="17">
+      <td class="xl26"
+ style="border-top: medium none; height: 12.75pt; font-family: Verdana; width: 179px;"
+ height="17"><small>Supplements</small></td>
+      <td class="xl39"
+ style="border-top: medium none; border-left: medium none; font-family: Verdana; width: 135px;"><small>&nbsp;</small></td>
+      <td class="xl40"
+ style="border-top: medium none; font-family: Verdana;"><small>$vehicleRental.getChild("supplements").getText()</small></td>
+      <td class="xl34"
+ style="border-top: medium none; font-family: Verdana;"><small>&nbsp;</small></td>
+      <td class="xl38"
+ style="border-top: medium none; font-family: Verdana;"><small>&nbsp;</small></td>
+    </tr>
+    <tr style="height: 12.75pt;"
+ height="17">
+      <td class="xl26"
+ style="border-top: medium none; height: 12.75pt; font-family: Verdana; width: 179px;"
+ height="17"><small>Remarks/Hints</small></td>
+      <td class="xl39"
+ style="border-top: medium none; border-left: medium none; font-family: Verdana; width: 135px;"><small>
+ 								#foreach ($remark in ${vehicleRental.getChild("remarks").getChildren()})
+								$remark.getText() <br>
+								#end
+								<br>
+								#foreach ($hint in ${vehicleRental.getChild("hints").getChildren()})
+								$hint.getText() <br>
+								#end</small></td>
+      
+    <tr style="height: 12.75pt;"
+ height="17">
+      <td class="xl32"
+ style="height: 12.75pt; font-family: Verdana; width: 179px;"
+ height="17"><small>FLIGHT
+INFORMATION</small></td>
+      <td
+ style="font-family: Verdana; width: 135px;" class="xl31"><small>&nbsp;</small></td>
+      <td style="font-family: Verdana;"
+ class="xl31"><small>&nbsp;</small></td>
+      <td style="font-family: Verdana;"
+ class="xl31"><small>&nbsp;</small></td>
+      <td style="font-family: Verdana;"
+ class="xl33"><small>&nbsp;</small></td>
+    </tr>
+    <tr style="height: 12.75pt;"
+ height="17">
+      <td colspan="5" class="xl48"
+ style="border-top: medium none; border-left: medium none; font-family: Verdana; width: 135px;"><small>$vehicleRental.getChild("flightInformation").getText()</td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>

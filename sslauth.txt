@@ -1,0 +1,26 @@
+
+**************************************
+
+keytool -genkey -keyalg RSA -alias "server" -keystore server.jks -storepass sslauth -validity 360 
+keytool -genkey -keyalg RSA -alias "client" -keystore client.jks -storepass sslauth -validity 360 
+keytool -genkey -keyalg RSA -alias "client2" -keystore client2.jks -storepass sslauth -validity 360
+
+keytool -export -alias server -keystore server.jks -storepass sslauth -file server.cer
+keytool -export -alias client -keystore client.jks -storepass sslauth -file client.cer
+keytool -export -alias client2 -keystore client2.jks -storepass sslauth -file client2.cer
+
+
+keytool -import -keystore server.jks -storepass sslauth -file client.cer 
+keytool -import -keystore server.jks -storepass sslauth -file client2.cer -alias client2 
+keytool -import -keystore client.jks -storepass sslauth -file server.cer
+keytool -import -keystore client2.jks -storepass sslauth -file server.cer
+
+keytool -genkey -v -alias browser -keyalg RSA -storetype PKCS12 -keystore browserStore.p12 -dname "CN=App1 NEU, OU=DerTest, O=DieOrg, L=Lausanne, ST=VD, C=CH" -storepass sslauth -keypass sslauth
+
+keytool -export -alias browser -keystore browserStore.p12 -storetype PKCS12 -storepass sslauth -rfc -file browser.cer 
+
+keytool -import -v -file browser.cer -keystore server.keystore -storepass sslauth -alias browser
+
+*********************************************************************
+How to import certificates in dotnet.
+http://www.kerrywong.com/2006/12/01/using-x509-certificate-with-web-service-in-aspnet/comment-page-1/

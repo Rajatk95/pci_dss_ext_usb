@@ -1,0 +1,24 @@
+SERVICE INFORMATION				
+VEHICLE RENTAL					$vehicleRental.getChild("rentalInfo").getText()			
+Service Reference				$vehicleRental.getChild("serviceReference").getText() 			
+Service							$vehicleRental.getChild("service").getText()			
+Category						$vehicleRental.getChild("category").getText()			
+Depo Code						$vehicleRental.getChild("depoCode").getText()			
+Pick Up City, Country			$vehicleRental.getChild("pickUpCity").getText(), $vehicleRental.getChild("pickUpCountry").getText()	
+Pickup Depot / Date / Time		$vehicleRental.getChild("pickUpDepot").getText() / $vehicleRental.getChild("pickUpDate").getText()			
+Drop off Depot / Date / Time	$vehicleRental.getChild("dropUpDepot").getText() / $vehicleRental.getChild("dropUpDate").getText()			
+Units							$vehicleRental.getChild("units").getText()			
+Date(s)						$vehicleRental.getChild("dates").getText()	
+Pax								$vehicleRental.getChild("paxTotal").getText()		
+Pax Allocation					#foreach ($pax in $vehicleRental.getChild("paxAllocation").getChildren("pax"))
+								$pax.getText()
+								#end
+								
+Supplements						$vehicleRental.getChild("supplements").getText()
+Remarks/Hints					#foreach ($remark in ${vehicleRental.getChild("remarks").getChildren()})
+								$remark.getText()
+								#end
+								#foreach ($hint in ${vehicleRental.getChild("hints").getChildren()})
+								$hint.getText()
+								#end
+FLIGHT INFORMATION				$vehicleRental.getChild("flightInformation").getText()		

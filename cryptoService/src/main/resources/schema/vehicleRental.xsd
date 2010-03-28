@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"  >
+  <xs:element name="vehicleRental">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="rentalInfo" />
+        <xs:element ref="serviceReference"/>
+        <xs:element ref="service"/>
+        <xs:element ref="category"/>
+        <xs:element ref="depoCode"/>
+        <xs:element ref="pickUpCity"/>
+        <xs:element ref="pickUpCountry"/>
+        <xs:element ref="pickUpDepot"/>
+        <xs:element ref="pickUpDate"/>
+        <xs:element ref="dropUpDepot"/>
+        <xs:element ref="dropUpDate"/>
+        <xs:element ref="dates"/>
+        <xs:element ref="units"/>
+        <xs:element ref="paxTotal"/>
+        <xs:element ref="paxAllocation"/>
+        <xs:element ref="supplements"/>
+        <xs:element ref="remarks"/>
+        <xs:element ref="hints"/>
+        <xs:element ref="flightInformation"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="rentalInfo" type="xs:string"/>
+  <xs:element name="serviceReference" type="xs:string"/>
+  <xs:element name="service" type="xs:string"/>
+  <xs:element name="category" type="xs:string"/>
+  <xs:element name="depoCode" type="xs:string"/>
+  <xs:element name="pickUpCity" type="xs:string"/>
+  <xs:element name="pickUpCountry" type="xs:string"/>
+  <xs:element name="pickUpDepot" type="xs:string"/>
+  <xs:element name="pickUpDate" type="xs:date"/>
+  <xs:element name="dropUpDepot" type="xs:string"/>
+  <xs:element name="dropUpDate" type="xs:date"/>
+  <xs:element name="dates" type="xs:string"/>
+  <xs:element name="units" type="xs:string"/>
+  <xs:element name="paxTotal" type="xs:string"/>
+  <xs:element name="paxAllocation">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="pax"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="pax" type="xs:string"/>
+  <xs:element name="supplements">
+    <xs:complexType/>
+  </xs:element>
+  <xs:element name="remarks">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="remark"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="remark" type="xs:string"/>
+  <xs:element name="hints">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="hint"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="hint" type="xs:string"/>
+  <xs:element name="flightInformation" type="xs:string"/>
+</xs:schema>

@@ -1,0 +1,25 @@
+<!DOCTYPE validators PUBLIC "-//OpenSymphony Group//XWork Validator 1.0//EN"
+        "http://www.opensymphony.com/xwork/xwork-validator-1.0.dtd">
+<validators>
+    <field name="key.name">
+        <field-validator type="requiredstring">
+            <message>Application Name is a required field.</message>
+        </field-validator>
+         <field-validator type="stringlength">  
+             <param name="maxLength">50</param>  
+             <message>  
+                 Application Name cannot contain more than 50 characters  
+             </message>  
+         </field-validator>          
+    </field>
+    <field name="key.group_id">
+        <field-validator type="requiredstring">
+            <message>Please select atleast One Group Id.</message>
+        </field-validator>
+    </field>
+    <field name="file">
+        <field-validator type="required">
+            <message>Certificate to Upload is a required field.</message>
+        </field-validator>
+    </field>
+</validators>

@@ -1,0 +1,30 @@
+<vehicleRental>
+	<rentalInfo>asd</rentalInfo>
+	<serviceReference>56gdf</serviceReference>
+	<service>fegr</service>
+	<category>egrgr</category>
+	<depoCode>fsef</depoCode>
+	<pickUpCity>Dubai</pickUpCity>
+	<pickUpCountry>UAE</pickUpCountry>
+	<pickUpDepot>fgegr</pickUpDepot>
+	<pickUpDate>15-Mar-08 / 13:10</pickUpDate>
+	<dropUpDepot>fgegr</dropUpDepot>
+	<dropUpDate>18-Mar-08 / 13:10</dropUpDate>
+	<dates>15Apr08 to 18Apr08 (3 Days)</dates>
+	<paxTotal>2 Adults</paxTotal>
+	<paxAllocation>
+		<pax>Mr Thomas/Joy  Adult (Sr No. 1)</pax>
+		<pax>Mr Ashok/A  Adult (Sr No. 2)</pax>
+	</paxAllocation>
+	<supplements></supplements>
+	<remarks>
+		<remark>Remarks from service lines</remark>
+	</remarks>
+	</hints>
+		<hint>Hints from Package level</hint>
+		<hint>Hints from Service level</hint>
+		<hint>Hints from Category level</hint>
+		<hint>Hints from Supplier level</hint>
+	</hints>
+	<flightInformation>EK545    MAA-DXB     EK 545    15Apr08 06:20 hrs   15Apr08 12:30 hrs</flightInformation>
+</vehicleRental>

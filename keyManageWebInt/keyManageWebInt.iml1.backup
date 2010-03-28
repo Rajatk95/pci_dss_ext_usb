@@ -1,0 +1,2379 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<module relativePaths="false" type="J2EE_WEB_MODULE" version="4"> 
+  <component name="FacetManager"> 
+    <facet type="web" name="keyManageWebInt"> 
+      <configuration> 
+        <descriptors> 
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/src/main/webapp/WEB-INF/web.xml" optional="false" version="2.5"/> 
+        </descriptors>  
+        <webroots> 
+          <root url="file://$MODULE_DIR$/src/main/webapp" relative="/"/> 
+        </webroots>  
+        <sourceRoots> 
+          <root url="file://$MODULE_DIR$/src/main/java"/>  
+          <root url="file://$MODULE_DIR$/src/main/resources"/> 
+        </sourceRoots>  
+        <building> 
+          <setting name="EXPLODED_URL" value="file://$MODULE_DIR$/target/keyManageWebInt"/>  
+          <setting name="EXPLODED_ENABLED" value="false"/>  
+          <setting name="JAR_URL" value="file://"/>  
+          <setting name="JAR_ENABLED" value="false"/>  
+          <setting name="EXCLUDE_EXPLODED_DIRECTORY" value="false"/> 
+        </building>  
+        <packaging> 
+          <containerElement type="module" name="keyManageWebInt"> 
+            <attribute name="method" value="1"/>  
+            <attribute name="URI" value="/WEB-INF/classes"/> 
+          </containerElement>  
+          <containerElement type="library" name="aspectjweaver" level="module"> 
+            <attribute name="method" value="1"/>  
+            <attribute name="URI" value="/WEB-INF/lib"/> 
+          </containerElement>  
+          <containerElement type="library" name="sitemesh" level="module"> 
+            <attribute name="method" value="1"/>  
+            <attribute name="URI" value="/WEB-INF/lib"/> 
+          </containerElement>  
+          <containerElement type="library" name="spring-jdbc" level="module"> 
+            <attribute name="method" value="1"/>  
+            <attribute name="URI" value="/WEB-INF/lib"/> 
+          </containerElement>  
+          <containerElement type="library" name="commons-logging" level="module"> 
+            <attribute name="method" value="1"/>  
+            <attribute name="URI" value="/WEB-INF/lib"/> 
+          </containerElement>  
+          <containerElement type="library" name="spring-beans" level="module"> 
+            <attribute name="method" value="1"/>  
+            <attribute name="URI" value="/WEB-INF/lib"/> 
+          </containerElement>  
+          <containerElement type="library" name="spring-core" level="module"> 
+            <attribute name="method" value="1"/>  
+            <attribute name="URI" value="/WEB-INF/lib"/> 
+          </containerElement>  
+          <containerElement type="library" name="spring-context" level="module"> 
+            <attribute name="method" value="1"/>  
+            <attribute name="URI" value="/WEB-INF/lib"/> 
+          </containerElement>  
+          <containerElement type="library" name="aopalliance" level="module"> 
+            <attribute name="method" value="1"/>  
+            <attribute name="URI" value="/WEB-INF/lib"/> 
+          </containerElement>  
+          <containerElement type="library" name="spring-tx" level="module"> 
+            <attribute name="method" value="1"/>  
+            <attribute name="URI" value="/WEB-INF/lib"/> 
+          </containerElement>  
+          <containerElement type="library" name="hibernate-annotations" level="module"> 
+            <attribute name="method" value="1"/>  
+            <attribute name="URI" value="/WEB-INF/lib"/> 
+          </containerElement>  
+          <containerElement type="library" name="hibernate" level="module"> 
+            <attribute name="method" value="1"/>  
+            <attribute name="URI" value="/WEB-INF/lib"/> 
+          </containerElement>  
+          <containerElement type="library" name="ehcache" level="module"> 
+            <attribute name="method" value="1"/>  
+            <attribute name="URI" value="/WEB-INF/lib"/> 
+          </containerElement>  
+          <containerElement type="library" name="commons-collections" level="module"> 
+            <attribute name="method" value="1"/>  
+            <attribute name="URI" value="/WEB-INF/lib"/> 
+          </containerElement>  
+          <containerElement type="library" name="jta" level="module"> 
+            <attribute name="method" value="1"/>  
+            <attribute name="URI" value="/WEB-INF/lib"/> 
+          </containerElement>  
+          <containerElement type="library" name="asm-attrs" level="module"> 
+            <attribute name="method" value="1"/>  
+            <attribute name="URI" value="/WEB-INF/lib"/> 
+          </containerElement>  
+          <containerElement type="library" name="dom4j" level="module"> 
+            <attribute name="method" value="1"/>  
+            <attribute name="URI" value="/WEB-INF/lib"/> 
+          </containerElement>  
+          <containerElement type="library" name="antlr" level="module"> 
+            <attribute name="method" value="1"/>  
+            <attribute name="URI" value="/WEB-INF/lib"/> 
+          </containerElement>  
+          <containerElement type="library" name="cglib" level="module"> 
+            <attribute name="method" value="1"/>  
+            <attribute name="URI" value="/WEB-INF/lib"/> 
+          </containerElement>  
+          <containerElement type="library" name="asm" level="module"> 
+            <attribute name="method" value="1"/>  
+            <attribute name="URI" value="/WEB-INF/lib"/> 
+          </containerElement>  
+          <containerElement type="library" name="persistence-api" level="module"> 
+            <attribute name="method" value="1"/>  
+            <attribute name="URI" value="/WEB-INF/lib"/> 
+          </containerElement>  
+          <containerElement type="library" name="struts2-core" level="module"> 
+            <attribute name="method" value="1"/>  
+            <attribute name="URI" value="/WEB-INF/lib"/> 
+          </containerElement>  
+          <containerElement type="library" name="xwork" level="module"> 
+            <attribute name="method" value="1"/>  
+            <attribute name="URI" value="/WEB-INF/lib"/> 
+          </containerElement>  
+          <containerElement type="library" name="ognl" level="module"> 
+            <attribute name="method" value="1"/>  
+            <attribute name="URI" value="/WEB-INF/lib"/> 
+          </containerElement>  
+          <containerElement type="library" name="freemarker" level="module"> 
+            <attribute name="method" value="1"/>  
+            <attribute name="URI" value="/WEB-INF/lib"/> 
+          </containerElement>  
+          <containerElement type="library" name="tools" level="module"> 
+            <attribute name="method" value="0"/>  
+            <attribute name="URI" value="/WEB-INF/lib"/> 
+          </containerElement>  
+          <containerElement type="library" name="struts-menu" level="module"> 
+            <attribute name="method" value="1"/>  
+            <attribute name="URI" value="/WEB-INF/lib"/> 
+          </containerElement>  
+          <containerElement type="library" name="commons-beanutils" level="module"> 
+            <attribute name="method" value="1"/>  
+            <attribute name="URI" value="/WEB-INF/lib"/> 
+          </containerElement>  
+          <containerElement type="library" name="commons-digester" level="module"> 
+            <attribute name="method" value="1"/>  
+            <attribute name="URI" value="/WEB-INF/lib"/> 
+          </containerElement>  
+          <containerElement type="library" name="commons-lang" level="module"> 
+            <attribute name="method" value="1"/>  
+            <attribute name="URI" value="/WEB-INF/lib"/> 
+          </containerElement>  
+          <containerElement type="library" name="velocity" level="module"> 
+            <attribute name="method" value="1"/>  
+            <attribute name="URI" value="/WEB-INF/lib"/> 
+          </containerElement>  
+          <containerElement type="library" name="velocity-dep" level="module"> 
+            <attribute name="method" value="1"/>  
+            <attribute name="URI" value="/WEB-INF/lib"/> 
+          </containerElement>  
+          <containerElement type="library" name="velocity-tools-view" level="module"> 
+            <attribute name="method" value="1"/>  
+            <attribute name="URI" value="/WEB-INF/lib"/> 
+          </containerElement>  
+          <containerElement type="library" name="urlrewritefilter" level="module"> 
+            <attribute name="method" value="1"/>  
+            <attribute name="URI" value="/WEB-INF/lib"/> 
+          </containerElement>  
+          <containerElement type="library" name="junit" level="module"> 
+            <attribute name="method" value="1"/>  
+            <attribute name="URI" value="/WEB-INF/lib"/> 
+          </containerElement>  
+          <containerElement type="library" name="servlet-api" level="module"> 
+            <attribute name="method" value="0"/>  
+            <attribute name="URI" value="/WEB-INF/lib"/> 
+          </containerElement>  
+          <containerElement type="library" name="log4j" level="module"> 
+            <attribute name="method" value="1"/>  
+            <attribute name="URI" value="/WEB-INF/lib"/> 
+          </containerElement>  
+          <containerElement type="library" name="subethasmtp-wiser" level="module"> 
+            <attribute name="method" value="0"/>  
+            <attribute name="URI" value="/WEB-INF/lib"/> 
+          </containerElement>  
+          <containerElement type="library" name="subethasmtp-smtp" level="module"> 
+            <attribute name="method" value="0"/>  
+            <attribute name="URI" value="/WEB-INF/lib"/> 
+          </containerElement>  
+          <containerElement type="library" name="mail" level="module"> 
+            <attribute name="method" value="1"/>  
+            <attribute name="URI" value="/WEB-INF/lib"/> 
+          </containerElement>  
+          <containerElement type="library" name="activation" level="module"> 
+            <attribute name="method" value="1"/>  
+            <attribute name="URI" value="/WEB-INF/lib"/> 
+          </containerElement>  
+          <containerElement type="library" name="jstl" level="module"> 
+            <attribute name="method" value="1"/>  
+            <attribute name="URI" value="/WEB-INF/lib"/> 
+          </containerElement>  
+          <containerElement type="library" name="commons-io" level="module"> 
+            <attribute name="method" value="1"/>  
+            <attribute name="URI" value="/WEB-INF/lib"/> 
+          </containerElement>  
+          <containerElement type="library" name="spring-aop" level="module"> 
+            <attribute name="method" value="1"/>  
+            <attribute name="URI" value="/WEB-INF/lib"/> 
+          </containerElement>  
+          <containerElement type="library" name="displaytag" level="module"> 
+            <attribute name="method" value="1"/>  
+            <attribute name="URI" value="/WEB-INF/lib"/> 
+          </containerElement>  
+          <containerElement type="library" name="itext" level="module"> 
+            <attribute name="method" value="1"/>  
+            <attribute name="URI" value="/WEB-INF/lib"/> 
+          </containerElement>  
+          <containerElement type="library" name="jcl104-over-slf4j" level="module"> 
+            <attribute name="method" value="1"/>  
+            <attribute name="URI" value="/WEB-INF/lib"/> 
+          </containerElement>  
+          <containerElement type="library" name="slf4j-log4j12" level="module"> 
+            <attribute name="method" value="1"/>  
+            <attribute name="URI" value="/WEB-INF/lib"/> 
+          </containerElement>  
+          <containerElement type="library" name="slf4j-api" level="module"> 
+            <attribute name="method" value="1"/>  
+            <attribute name="URI" value="/WEB-INF/lib"/> 
+          </containerElement>  
+          <containerElement type="library" name="aspectjrt" level="module"> 
+            <attribute name="method" value="1"/>  
+            <attribute name="URI" value="/WEB-INF/lib"/> 
+          </containerElement>  
+          <containerElement type="library" name="spring-webmvc" level="module"> 
+            <attribute name="method" value="1"/>  
+            <attribute name="URI" value="/WEB-INF/lib"/> 
+          </containerElement>  
+          <containerElement type="library" name="spring-context-support" level="module"> 
+            <attribute name="method" value="1"/>  
+            <attribute name="URI" value="/WEB-INF/lib"/> 
+          </containerElement>  
+          <containerElement type="library" name="spring-web" level="module"> 
+            <attribute name="method" value="1"/>  
+            <attribute name="URI" value="/WEB-INF/lib"/> 
+          </containerElement>  
+          <containerElement type="library" name="standard" level="module"> 
+            <attribute name="method" value="1"/>  
+            <attribute name="URI" value="/WEB-INF/lib"/> 
+          </containerElement>  
+          <containerElement type="library" name="hibernate-commons-annotations" level="module"> 
+            <attribute name="method" value="1"/>  
+            <attribute name="URI" value="/WEB-INF/lib"/> 
+          </containerElement>  
+          <containerElement type="library" name="jsr107cache" level="module"> 
+            <attribute name="method" value="1"/>  
+            <attribute name="URI" value="/WEB-INF/lib"/> 
+          </containerElement>  
+          <containerElement type="library" name="backport-util-concurrent" level="module"> 
+            <attribute name="method" value="1"/>  
+            <attribute name="URI" value="/WEB-INF/lib"/> 
+          </containerElement>  
+          <containerElement type="library" name="commons-fileupload" level="module"> 
+            <attribute name="method" value="1"/>  
+            <attribute name="URI" value="/WEB-INF/lib"/> 
+          </containerElement>  
+          <containerElement type="library" name="spring-security-taglibs" level="module"> 
+            <attribute name="method" value="1"/>  
+            <attribute name="URI" value="/WEB-INF/lib"/> 
+          </containerElement>  
+          <containerElement type="library" name="spring-security-core" level="module"> 
+            <attribute name="method" value="1"/>  
+            <attribute name="URI" value="/WEB-INF/lib"/> 
+          </containerElement>  
+          <containerElement type="library" name="commons-codec" level="module"> 
+            <attribute name="method" value="1"/>  
+            <attribute name="URI" value="/WEB-INF/lib"/> 
+          </containerElement>  
+          <containerElement type="library" name="spring-security-acl" level="module"> 
+            <attribute name="method" value="1"/>  
+            <attribute name="URI" value="/WEB-INF/lib"/> 
+          </containerElement>  
+          <containerElement type="library" name="struts2-codebehind-plugin" level="module"> 
+            <attribute name="method" value="1"/>  
+            <attribute name="URI" value="/WEB-INF/lib"/> 
+          </containerElement>  
+          <containerElement type="library" name="spring-aspects" level="module"> 
+            <attribute name="method" value="1"/>  
+            <attribute name="URI" value="/WEB-INF/lib"/> 
+          </containerElement>  
+          <containerElement type="library" name="spring-orm" level="module"> 
+            <attribute name="method" value="1"/>  
+            <attribute name="URI" value="/WEB-INF/lib"/> 
+          </containerElement>  
+          <containerElement type="library" name="dwr" level="module"> 
+            <attribute name="method" value="1"/>  
+            <attribute name="URI" value="/WEB-INF/lib"/> 
+          </containerElement>  
+          <containerElement type="library" name="jmock" level="module"> 
+            <attribute name="method" value="1"/>  
+            <attribute name="URI" value="/WEB-INF/lib"/> 
+          </containerElement>  
+          <containerElement type="library" name="hamcrest-core" level="module"> 
+            <attribute name="method" value="1"/>  
+            <attribute name="URI" value="/WEB-INF/lib"/> 
+          </containerElement>  
+          <containerElement type="library" name="hamcrest-library" level="module"> 
+            <attribute name="method" value="1"/>  
+            <attribute name="URI" value="/WEB-INF/lib"/> 
+          </containerElement>  
+          <containerElement type="library" name="spring-security-core-tiger" level="module"> 
+            <attribute name="method" value="1"/>  
+            <attribute name="URI" value="/WEB-INF/lib"/> 
+          </containerElement>  
+          <containerElement type="library" name="xfire-java5" level="module"> 
+            <attribute name="method" value="1"/>  
+            <attribute name="URI" value="/WEB-INF/lib"/> 
+          </containerElement>  
+          <containerElement type="library" name="xfire-aegis" level="module"> 
+            <attribute name="method" value="1"/>  
+            <attribute name="URI" value="/WEB-INF/lib"/> 
+          </containerElement>  
+          <containerElement type="library" name="xfire-core" level="module"> 
+            <attribute name="method" value="1"/>  
+            <attribute name="URI" value="/WEB-INF/lib"/> 
+          </containerElement>  
+          <containerElement type="library" name="wsdl4j" level="module"> 
+            <attribute name="method" value="1"/>  
+            <attribute name="URI" value="/WEB-INF/lib"/> 
+          </containerElement>  
+          <containerElement type="library" name="stax-api" level="module"> 
+            <attribute name="method" value="1"/>  
+            <attribute name="URI" value="/WEB-INF/lib"/> 
+          </containerElement>  
+          <containerElement type="library" name="wstx-asl" level="module"> 
+            <attribute name="method" value="1"/>  
+            <attribute name="URI" value="/WEB-INF/lib"/> 
+          </containerElement>  
+          <containerElement type="library" name="jdom" level="module"> 
+            <attribute name="method" value="1"/>  
+            <attribute name="URI" value="/WEB-INF/lib"/> 
+          </containerElement>  
+          <containerElement type="library" name="commons-httpclient" level="module"> 
+            <attribute name="method" value="1"/>  
+            <attribute name="URI" value="/WEB-INF/lib"/> 
+          </containerElement>  
+          <containerElement type="library" name="stax-utils" level="module"> 
+            <attribute name="method" value="1"/>  
+            <attribute name="URI" value="/WEB-INF/lib"/> 
+          </containerElement>  
+          <containerElement type="library" name="xfire-annotations" level="module"> 
+            <attribute name="method" value="1"/>  
+            <attribute name="URI" value="/WEB-INF/lib"/> 
+          </containerElement>  
+          <containerElement type="library" name="xfire-jsr181-api" level="module"> 
+            <attribute name="method" value="1"/>  
+            <attribute name="URI" value="/WEB-INF/lib"/> 
+          </containerElement>  
+          <containerElement type="library" name="mysql-connector-java" level="module"> 
+            <attribute name="method" value="1"/>  
+            <attribute name="URI" value="/WEB-INF/lib"/> 
+          </containerElement>  
+          <containerElement type="library" name="clickstream" level="module"> 
+            <attribute name="method" value="1"/>  
+            <attribute name="URI" value="/WEB-INF/lib"/> 
+          </containerElement>  
+          <containerElement type="library" name="commons-dbcp" level="module"> 
+            <attribute name="method" value="1"/>  
+            <attribute name="URI" value="/WEB-INF/lib"/> 
+          </containerElement>  
+          <containerElement type="library" name="commons-pool" level="module"> 
+            <attribute name="method" value="1"/>  
+            <attribute name="URI" value="/WEB-INF/lib"/> 
+          </containerElement>  
+          <containerElement type="library" name="xml-apis" level="module"> 
+            <attribute name="method" value="1"/>  
+            <attribute name="URI" value="/WEB-INF/lib"/> 
+          </containerElement>  
+          <containerElement type="library" name="struts2-spring-plugin" level="module"> 
+            <attribute name="method" value="1"/>  
+            <attribute name="URI" value="/WEB-INF/lib"/> 
+          </containerElement>  
+          <containerElement type="library" name="spring-test" level="module"> 
+            <attribute name="method" value="1"/>  
+            <attribute name="URI" value="/WEB-INF/lib"/> 
+          </containerElement>  
+          <containerElement type="library" name="xfire-spring" level="module"> 
+            <attribute name="method" value="1"/>  
+            <attribute name="URI" value="/WEB-INF/lib"/> 
+          </containerElement>  
+          <containerElement type="library" name="xbean-spring" level="module"> 
+            <attribute name="method" value="1"/>  
+            <attribute name="URI" value="/WEB-INF/lib"/> 
+          </containerElement>  
+          <containerElement type="library" name="xfire-xmlbeans" level="module"> 
+            <attribute name="method" value="1"/>  
+            <attribute name="URI" value="/WEB-INF/lib"/> 
+          </containerElement>  
+          <containerElement type="library" name="xbean" level="module"> 
+            <attribute name="method" value="1"/>  
+            <attribute name="URI" value="/WEB-INF/lib"/> 
+          </containerElement>  
+          <containerElement type="library" name="oscache" level="module"> 
+            <attribute name="method" value="1"/>  
+            <attribute name="URI" value="/WEB-INF/lib"/> 
+          </containerElement>  
+          <containerElement type="library" name="jmock-junit4" level="module"> 
+            <attribute name="method" value="1"/>  
+            <attribute name="URI" value="/WEB-INF/lib"/> 
+          </containerElement>  
+          <containerElement type="library" name="junit-dep" level="module"> 
+            <attribute name="method" value="1"/>  
+            <attribute name="URI" value="/WEB-INF/lib"/> 
+          </containerElement>  
+          <containerElement type="library" name="jsp-api" level="module"> 
+            <attribute name="method" value="0"/>  
+            <attribute name="URI" value="/WEB-INF/lib"/> 
+          </containerElement> 
+        </packaging> 
+      </configuration> 
+    </facet> 
+  </component>  
+  <component name="NewModuleRootManager" inherit-compiler-output="false"> 
+    <output url="file://$MODULE_DIR$/target/classes"/>  
+    <output-test url="file://$MODULE_DIR$/target/test-classes"/>  
+    <exclude-output/>  
+    <content url="file://$MODULE_DIR$"> 
+      <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false"/>
+      <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true"/>
+      <sourceFolder url="file://$MODULE_DIR$/src/main/resources" isTestSource="false"/>
+      <excludeFolder url="file://$MODULE_DIR$/target"/>
+    </content>  
+    <orderEntry type="jdk" jdkName="JDK1.6" jdkType="JavaSDK"/>  
+    <orderEntry type="sourceFolder" forTests="false"/>  
+    <orderEntry type="module-library"> 
+      <library name="aspectjweaver"> 
+        <JAVADOC> 
+          <root url="jar:///data/java/repository/org/aspectj/aspectjweaver/1.6.0/aspectjweaver-1.6.0-javadoc.jar!/"/> 
+        </JAVADOC>  
+        <SOURCES/>  
+        <CLASSES>
+          <root url="jar://D:/Apps/repository/appfuse/org/aspectj/aspectjweaver/1.6.0/aspectjweaver-1.6.0.jar!/"/>
+        </CLASSES>
+        <SOURCES/>
+        <JAVADOC>
+          <root url="jar://D:/Apps/repository/appfuse/org/aspectj/aspectjweaver/1.6.0/aspectjweaver-1.6.0-javadoc.jar!/"/>
+        </JAVADOC>
+      </library> 
+    </orderEntry>  
+    <orderEntry type="module-library"> 
+      <library name="sitemesh"> 
+        <JAVADOC/>  
+        <SOURCES> 
+          <root url="jar:///data/java/repository/opensymphony/sitemesh/2.2.1/sitemesh-2.2.1-sources.jar!/"/> 
+        </SOURCES>  
+        <CLASSES>
+          <root url="jar://D:/Apps/repository/appfuse/opensymphony/sitemesh/2.2.1/sitemesh-2.2.1.jar!/"/>
+        </CLASSES>
+        <SOURCES>
+          <root url="jar://D:/Apps/repository/appfuse/opensymphony/sitemesh/2.2.1/sitemesh-2.2.1-sources.jar!/"/>
+        </SOURCES>
+        <JAVADOC/>
+      </library> 
+    </orderEntry>  
+    <orderEntry type="module-library"> 
+      <library name="spring-jdbc"> 
+        <JAVADOC/>  
+        <SOURCES> 
+          <root url="jar:///data/java/repository/org/springframework/spring-jdbc/2.5.4/spring-jdbc-2.5.4-sources.jar!/"/> 
+        </SOURCES>  
+        <CLASSES>
+          <root url="jar://D:/Apps/repository/appfuse/org/springframework/spring-jdbc/2.5.4/spring-jdbc-2.5.4.jar!/"/>
+        </CLASSES>
+        <SOURCES>
+          <root url="jar://D:/Apps/repository/appfuse/org/springframework/spring-jdbc/2.5.4/spring-jdbc-2.5.4-sources.jar!/"/>
+        </SOURCES>
+        <JAVADOC/>
+      </library> 
+    </orderEntry>  
+    <orderEntry type="module-library"> 
+      <library name="commons-logging"> 
+        <JAVADOC> 
+          <root url="jar:///data/java/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1-javadoc.jar!/"/> 
+        </JAVADOC>  
+        <SOURCES> 
+          <root url="jar:///data/java/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1-sources.jar!/"/> 
+        </SOURCES>  
+        <CLASSES>
+          <root url="jar://D:/Apps/repository/appfuse/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar!/"/>
+        </CLASSES>
+        <SOURCES>
+          <root url="jar://D:/Apps/repository/appfuse/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1-sources.jar!/"/>
+        </SOURCES>
+        <JAVADOC>
+          <root url="jar://D:/Apps/repository/appfuse/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1-javadoc.jar!/"/>
+        </JAVADOC>
+      </library> 
+    </orderEntry>  
+    <orderEntry type="module-library"> 
+      <library name="spring-beans"> 
+        <JAVADOC/>  
+        <SOURCES> 
+          <root url="jar:///data/java/repository/org/springframework/spring-beans/2.5.4/spring-beans-2.5.4-sources.jar!/"/> 
+        </SOURCES>  
+        <CLASSES>
+          <root url="jar://D:/Apps/repository/appfuse/org/springframework/spring-beans/2.5.4/spring-beans-2.5.4.jar!/"/>
+        </CLASSES>
+        <SOURCES>
+          <root url="jar://D:/Apps/repository/appfuse/org/springframework/spring-beans/2.5.4/spring-beans-2.5.4-sources.jar!/"/>
+        </SOURCES>
+        <JAVADOC/>
+      </library> 
+    </orderEntry>  
+    <orderEntry type="module-library"> 
+      <library name="spring-core"> 
+        <JAVADOC/>  
+        <SOURCES> 
+          <root url="jar:///data/java/repository/org/springframework/spring-core/2.5.4/spring-core-2.5.4-sources.jar!/"/> 
+        </SOURCES>  
+        <CLASSES>
+          <root url="jar://D:/Apps/repository/appfuse/org/springframework/spring-core/2.5.4/spring-core-2.5.4.jar!/"/>
+        </CLASSES>
+        <SOURCES>
+          <root url="jar://D:/Apps/repository/appfuse/org/springframework/spring-core/2.5.4/spring-core-2.5.4-sources.jar!/"/>
+        </SOURCES>
+        <JAVADOC/>
+      </library> 
+    </orderEntry>  
+    <orderEntry type="module-library"> 
+      <library name="spring-context"> 
+        <JAVADOC/>  
+        <SOURCES> 
+          <root url="jar:///data/java/repository/org/springframework/spring-context/2.5.4/spring-context-2.5.4-sources.jar!/"/> 
+        </SOURCES>  
+        <CLASSES>
+          <root url="jar://D:/Apps/repository/appfuse/org/springframework/spring-context/2.5.4/spring-context-2.5.4.jar!/"/>
+        </CLASSES>
+        <SOURCES>
+          <root url="jar://D:/Apps/repository/appfuse/org/springframework/spring-context/2.5.4/spring-context-2.5.4-sources.jar!/"/>
+        </SOURCES>
+        <JAVADOC/>
+      </library> 
+    </orderEntry>  
+    <orderEntry type="module-library"> 
+      <library name="aopalliance"> 
+        <JAVADOC/>  
+        <SOURCES> 
+          <root url="jar:///data/java/repository/aopalliance/aopalliance/1.0/aopalliance-1.0-sources.jar!/"/> 
+        </SOURCES>  
+        <CLASSES>
+          <root url="jar://D:/Apps/repository/appfuse/aopalliance/aopalliance/1.0/aopalliance-1.0.jar!/"/>
+        </CLASSES>
+        <SOURCES>
+          <root url="jar://D:/Apps/repository/appfuse/aopalliance/aopalliance/1.0/aopalliance-1.0-sources.jar!/"/>
+        </SOURCES>
+        <JAVADOC/>
+      </library> 
+    </orderEntry>  
+    <orderEntry type="module-library"> 
+      <library name="spring-tx"> 
+        <JAVADOC/>  
+        <SOURCES> 
+          <root url="jar:///data/java/repository/org/springframework/spring-tx/2.5.4/spring-tx-2.5.4-sources.jar!/"/> 
+        </SOURCES>  
+        <CLASSES>
+          <root url="jar://D:/Apps/repository/appfuse/org/springframework/spring-tx/2.5.4/spring-tx-2.5.4.jar!/"/>
+        </CLASSES>
+        <SOURCES>
+          <root url="jar://D:/Apps/repository/appfuse/org/springframework/spring-tx/2.5.4/spring-tx-2.5.4-sources.jar!/"/>
+        </SOURCES>
+        <JAVADOC/>
+      </library> 
+    </orderEntry>  
+    <orderEntry type="module-library"> 
+      <library name="hibernate-annotations"> 
+        <JAVADOC> 
+          <root url="jar:///data/java/repository/org/hibernate/hibernate-annotations/3.3.0.ga/hibernate-annotations-3.3.0.ga-javadoc.jar!/"/> 
+        </JAVADOC>  
+        <SOURCES> 
+          <root url="jar:///data/java/repository/org/hibernate/hibernate-annotations/3.3.0.ga/hibernate-annotations-3.3.0.ga-sources.jar!/"/> 
+        </SOURCES>  
+        <CLASSES>
+          <root url="jar://D:/Apps/repository/appfuse/org/hibernate/hibernate-annotations/3.3.0.ga/hibernate-annotations-3.3.0.ga.jar!/"/>
+        </CLASSES>
+        <SOURCES>
+          <root url="jar://D:/Apps/repository/appfuse/org/hibernate/hibernate-annotations/3.3.0.ga/hibernate-annotations-3.3.0.ga-sources.jar!/"/>
+        </SOURCES>
+        <JAVADOC>
+          <root url="jar://D:/Apps/repository/appfuse/org/hibernate/hibernate-annotations/3.3.0.ga/hibernate-annotations-3.3.0.ga-javadoc.jar!/"/>
+        </JAVADOC>
+      </library> 
+    </orderEntry>  
+    <orderEntry type="module-library"> 
+      <library name="hibernate"> 
+        <JAVADOC> 
+          <root url="jar:///data/java/repository/org/hibernate/hibernate/3.2.6.ga/hibernate-3.2.6.ga-javadoc.jar!/"/> 
+        </JAVADOC>  
+        <SOURCES> 
+          <root url="jar:///data/java/repository/org/hibernate/hibernate/3.2.6.ga/hibernate-3.2.6.ga-sources.jar!/"/> 
+        </SOURCES>  
+        <CLASSES>
+          <root url="jar://D:/Apps/repository/appfuse/org/hibernate/hibernate/3.2.6.ga/hibernate-3.2.6.ga.jar!/"/>
+        </CLASSES>
+        <SOURCES>
+          <root url="jar://D:/Apps/repository/appfuse/org/hibernate/hibernate/3.2.6.ga/hibernate-3.2.6.ga-sources.jar!/"/>
+        </SOURCES>
+        <JAVADOC>
+          <root url="jar://D:/Apps/repository/appfuse/org/hibernate/hibernate/3.2.6.ga/hibernate-3.2.6.ga-javadoc.jar!/"/>
+        </JAVADOC>
+      </library> 
+    </orderEntry>  
+    <orderEntry type="module-library"> 
+      <library name="ehcache"> 
+        <JAVADOC> 
+          <root url="jar:///data/java/repository/net/sf/ehcache/ehcache/1.4.1/ehcache-1.4.1-javadoc.jar!/"/> 
+        </JAVADOC>  
+        <SOURCES> 
+          <root url="jar:///data/java/repository/net/sf/ehcache/ehcache/1.4.1/ehcache-1.4.1-sources.jar!/"/> 
+        </SOURCES>  
+        <CLASSES>
+          <root url="jar://D:/Apps/repository/appfuse/net/sf/ehcache/ehcache/1.4.1/ehcache-1.4.1.jar!/"/>
+        </CLASSES>
+        <SOURCES>
+          <root url="jar://D:/Apps/repository/appfuse/net/sf/ehcache/ehcache/1.4.1/ehcache-1.4.1-sources.jar!/"/>
+        </SOURCES>
+        <JAVADOC>
+          <root url="jar://D:/Apps/repository/appfuse/net/sf/ehcache/ehcache/1.4.1/ehcache-1.4.1-javadoc.jar!/"/>
+        </JAVADOC>
+      </library> 
+    </orderEntry>  
+    <orderEntry type="module-library"> 
+      <library name="commons-collections"> 
+        <JAVADOC/>  
+        <SOURCES> 
+          <root url="jar:///data/java/repository/commons-collections/commons-collections/3.2/commons-collections-3.2-sources.jar!/"/> 
+        </SOURCES>  
+        <CLASSES>
+          <root url="jar://D:/Apps/repository/appfuse/commons-collections/commons-collections/3.2/commons-collections-3.2.jar!/"/>
+        </CLASSES>
+        <SOURCES>
+          <root url="jar://D:/Apps/repository/appfuse/commons-collections/commons-collections/3.2/commons-collections-3.2-sources.jar!/"/>
+        </SOURCES>
+        <JAVADOC/>
+      </library> 
+    </orderEntry>  
+    <orderEntry type="module-library"> 
+      <library name="jta"> 
+        <JAVADOC/>  
+        <SOURCES/>  
+        <CLASSES>
+          <root url="jar://D:/Apps/repository/appfuse/javax/transaction/jta/1.0.1B/jta-1.0.1B.jar!/"/>
+        </CLASSES>
+        <SOURCES/>
+        <JAVADOC/>
+      </library> 
+    </orderEntry>  
+    <orderEntry type="module-library"> 
+      <library name="asm-attrs"> 
+        <JAVADOC/>  
+        <SOURCES/>  
+        <CLASSES>
+          <root url="jar://D:/Apps/repository/appfuse/asm/asm-attrs/1.5.3/asm-attrs-1.5.3.jar!/"/>
+        </CLASSES>
+        <SOURCES/>
+        <JAVADOC/>
+      </library> 
+    </orderEntry>  
+    <orderEntry type="module-library"> 
+      <library name="dom4j"> 
+        <JAVADOC/>  
+        <SOURCES> 
+          <root url="jar:///data/java/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1-sources.jar!/"/> 
+        </SOURCES>  
+        <CLASSES>
+          <root url="jar://D:/Apps/repository/appfuse/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar!/"/>
+        </CLASSES>
+        <SOURCES>
+          <root url="jar://D:/Apps/repository/appfuse/dom4j/dom4j/1.6.1/dom4j-1.6.1-sources.jar!/"/>
+        </SOURCES>
+        <JAVADOC/>
+      </library> 
+    </orderEntry>  
+    <orderEntry type="module-library"> 
+      <library name="antlr"> 
+        <JAVADOC/>  
+        <SOURCES> 
+          <root url="jar:///data/java/repository/antlr/antlr/2.7.6/antlr-2.7.6-sources.jar!/"/> 
+        </SOURCES>  
+        <CLASSES>
+          <root url="jar://D:/Apps/repository/appfuse/antlr/antlr/2.7.6/antlr-2.7.6.jar!/"/>
+        </CLASSES>
+        <SOURCES>
+          <root url="jar://D:/Apps/repository/appfuse/antlr/antlr/2.7.6/antlr-2.7.6-sources.jar!/"/>
+        </SOURCES>
+        <JAVADOC/>
+      </library> 
+    </orderEntry>  
+    <orderEntry type="module-library"> 
+      <library name="cglib"> 
+        <JAVADOC/>  
+        <SOURCES> 
+          <root url="jar:///data/java/repository/cglib/cglib/2.1_3/cglib-2.1_3-sources.jar!/"/> 
+        </SOURCES>  
+        <CLASSES>
+          <root url="jar://D:/Apps/repository/appfuse/cglib/cglib/2.1_3/cglib-2.1_3.jar!/"/>
+        </CLASSES>
+        <SOURCES>
+          <root url="jar://D:/Apps/repository/appfuse/cglib/cglib/2.1_3/cglib-2.1_3-sources.jar!/"/>
+        </SOURCES>
+        <JAVADOC/>
+      </library> 
+    </orderEntry>  
+    <orderEntry type="module-library"> 
+      <library name="asm"> 
+        <JAVADOC/>  
+        <SOURCES/>  
+        <CLASSES>
+          <root url="jar://D:/Apps/repository/appfuse/asm/asm/1.5.3/asm-1.5.3.jar!/"/>
+        </CLASSES>
+        <SOURCES/>
+        <JAVADOC/>
+      </library> 
+    </orderEntry>  
+    <orderEntry type="module-library"> 
+      <library name="persistence-api"> 
+        <JAVADOC/>  
+        <SOURCES> 
+          <root url="jar:///data/java/repository/javax/persistence/persistence-api/1.0/persistence-api-1.0-sources.jar!/"/> 
+        </SOURCES>  
+        <CLASSES>
+          <root url="jar://D:/Apps/repository/appfuse/javax/persistence/persistence-api/1.0/persistence-api-1.0.jar!/"/>
+        </CLASSES>
+        <SOURCES>
+          <root url="jar://D:/Apps/repository/appfuse/javax/persistence/persistence-api/1.0/persistence-api-1.0-sources.jar!/"/>
+        </SOURCES>
+        <JAVADOC/>
+      </library> 
+    </orderEntry>  
+    <orderEntry type="module-library"> 
+      <library name="struts2-core"> 
+        <JAVADOC> 
+          <root url="jar:///data/java/repository/org/apache/struts/struts2-core/2.0.11.1/struts2-core-2.0.11.1-javadoc.jar!/"/> 
+        </JAVADOC>  
+        <SOURCES> 
+          <root url="jar:///data/java/repository/org/apache/struts/struts2-core/2.0.11.1/struts2-core-2.0.11.1-sources.jar!/"/> 
+        </SOURCES>  
+        <CLASSES>
+          <root url="jar://D:/Apps/repository/appfuse/org/apache/struts/struts2-core/2.0.11.1/struts2-core-2.0.11.1.jar!/"/>
+        </CLASSES>
+        <SOURCES>
+          <root url="jar://D:/Apps/repository/appfuse/org/apache/struts/struts2-core/2.0.11.1/struts2-core-2.0.11.1-sources.jar!/"/>
+        </SOURCES>
+        <JAVADOC>
+          <root url="jar://D:/Apps/repository/appfuse/org/apache/struts/struts2-core/2.0.11.1/struts2-core-2.0.11.1-javadoc.jar!/"/>
+        </JAVADOC>
+      </library> 
+    </orderEntry>  
+    <orderEntry type="module-library"> 
+      <library name="xwork"> 
+        <JAVADOC> 
+          <root url="jar:///data/java/repository/com/opensymphony/xwork/2.0.4/xwork-2.0.4-javadoc.jar!/"/> 
+        </JAVADOC>  
+        <SOURCES> 
+          <root url="jar:///data/java/repository/com/opensymphony/xwork/2.0.4/xwork-2.0.4-sources.jar!/"/> 
+        </SOURCES>  
+        <CLASSES>
+          <root url="jar://D:/Apps/repository/appfuse/com/opensymphony/xwork/2.0.4/xwork-2.0.4.jar!/"/>
+        </CLASSES>
+        <SOURCES>
+          <root url="jar://D:/Apps/repository/appfuse/com/opensymphony/xwork/2.0.4/xwork-2.0.4-sources.jar!/"/>
+        </SOURCES>
+        <JAVADOC>
+          <root url="jar://D:/Apps/repository/appfuse/com/opensymphony/xwork/2.0.4/xwork-2.0.4-javadoc.jar!/"/>
+        </JAVADOC>
+      </library> 
+    </orderEntry>  
+    <orderEntry type="module-library"> 
+      <library name="ognl"> 
+        <JAVADOC/>  
+        <SOURCES> 
+          <root url="jar:///data/java/repository/opensymphony/ognl/2.6.11/ognl-2.6.11-sources.jar!/"/> 
+        </SOURCES>  
+        <CLASSES>
+          <root url="jar://D:/Apps/repository/appfuse/opensymphony/ognl/2.6.11/ognl-2.6.11.jar!/"/>
+        </CLASSES>
+        <SOURCES>
+          <root url="jar://D:/Apps/repository/appfuse/opensymphony/ognl/2.6.11/ognl-2.6.11-sources.jar!/"/>
+        </SOURCES>
+        <JAVADOC/>
+      </library> 
+    </orderEntry>  
+    <orderEntry type="module-library"> 
+      <library name="freemarker"> 
+        <JAVADOC/>  
+        <SOURCES/>  
+        <CLASSES>
+          <root url="jar://D:/Apps/repository/appfuse/freemarker/freemarker/2.3.8/freemarker-2.3.8.jar!/"/>
+        </CLASSES>
+        <SOURCES/>
+        <JAVADOC/>
+      </library> 
+    </orderEntry>  
+    <orderEntry type="module-library"> 
+      <library name="tools"> 
+        <JAVADOC/>  
+        <SOURCES/>  
+        <CLASSES>
+          <root url="jar://C:/Program Files/Java/jdk1.5.0_17/jre/../lib/tools.jar!/"/>
+        </CLASSES>
+        <SOURCES/>
+        <JAVADOC/>
+      </library> 
+    </orderEntry>  
+    <orderEntry type="module-library"> 
+      <library name="struts-menu"> 
+        <JAVADOC/>  
+        <SOURCES> 
+          <root url="jar:///data/java/repository/struts-menu/struts-menu/2.4.3/struts-menu-2.4.3-sources.jar!/"/> 
+        </SOURCES>  
+        <CLASSES>
+          <root url="jar://D:/Apps/repository/appfuse/struts-menu/struts-menu/2.4.3/struts-menu-2.4.3.jar!/"/>
+        </CLASSES>
+        <SOURCES>
+          <root url="jar://D:/Apps/repository/appfuse/struts-menu/struts-menu/2.4.3/struts-menu-2.4.3-sources.jar!/"/>
+        </SOURCES>
+        <JAVADOC/>
+      </library> 
+    </orderEntry>  
+    <orderEntry type="module-library"> 
+      <library name="commons-beanutils"> 
+        <JAVADOC> 
+          <root url="jar:///data/java/repository/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0-javadoc.jar!/"/> 
+        </JAVADOC>  
+        <SOURCES> 
+          <root url="jar:///data/java/repository/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0-sources.jar!/"/> 
+        </SOURCES>  
+        <CLASSES>
+          <root url="jar://D:/Apps/repository/appfuse/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0.jar!/"/>
+        </CLASSES>
+        <SOURCES>
+          <root url="jar://D:/Apps/repository/appfuse/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0-sources.jar!/"/>
+        </SOURCES>
+        <JAVADOC>
+          <root url="jar://D:/Apps/repository/appfuse/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0-javadoc.jar!/"/>
+        </JAVADOC>
+      </library> 
+    </orderEntry>  
+    <orderEntry type="module-library"> 
+      <library name="commons-digester"> 
+        <JAVADOC> 
+          <root url="jar:///data/java/repository/commons-digester/commons-digester/1.7/commons-digester-1.7-javadoc.jar!/"/> 
+        </JAVADOC>  
+        <SOURCES> 
+          <root url="jar:///data/java/repository/commons-digester/commons-digester/1.7/commons-digester-1.7-sources.jar!/"/> 
+        </SOURCES>  
+        <CLASSES>
+          <root url="jar://D:/Apps/repository/appfuse/commons-digester/commons-digester/1.7/commons-digester-1.7.jar!/"/>
+        </CLASSES>
+        <SOURCES>
+          <root url="jar://D:/Apps/repository/appfuse/commons-digester/commons-digester/1.7/commons-digester-1.7-sources.jar!/"/>
+        </SOURCES>
+        <JAVADOC>
+          <root url="jar://D:/Apps/repository/appfuse/commons-digester/commons-digester/1.7/commons-digester-1.7-javadoc.jar!/"/>
+        </JAVADOC>
+      </library> 
+    </orderEntry>  
+    <orderEntry type="module-library"> 
+      <library name="commons-lang"> 
+        <JAVADOC/>  
+        <SOURCES> 
+          <root url="jar:///data/java/repository/commons-lang/commons-lang/2.3/commons-lang-2.3-sources.jar!/"/> 
+        </SOURCES>  
+        <CLASSES>
+          <root url="jar://D:/Apps/repository/appfuse/commons-lang/commons-lang/2.3/commons-lang-2.3.jar!/"/>
+        </CLASSES>
+        <SOURCES>
+          <root url="jar://D:/Apps/repository/appfuse/commons-lang/commons-lang/2.3/commons-lang-2.3-sources.jar!/"/>
+        </SOURCES>
+        <JAVADOC/>
+      </library> 
+    </orderEntry>  
+    <orderEntry type="module-library"> 
+      <library name="velocity"> 
+        <JAVADOC/>  
+        <SOURCES> 
+          <root url="jar:///data/java/repository/velocity/velocity/1.4/velocity-1.4-sources.jar!/"/> 
+        </SOURCES>  
+        <CLASSES>
+          <root url="jar://D:/Apps/repository/appfuse/velocity/velocity/1.4/velocity-1.4.jar!/"/>
+        </CLASSES>
+        <SOURCES>
+          <root url="jar://D:/Apps/repository/appfuse/velocity/velocity/1.4/velocity-1.4-sources.jar!/"/>
+        </SOURCES>
+        <JAVADOC/>
+      </library> 
+    </orderEntry>  
+    <orderEntry type="module-library"> 
+      <library name="velocity-dep"> 
+        <JAVADOC/>  
+        <SOURCES> 
+          <root url="jar:///data/java/repository/velocity/velocity-dep/1.4/velocity-dep-1.4-sources.jar!/"/> 
+        </SOURCES>  
+        <CLASSES>
+          <root url="jar://D:/Apps/repository/appfuse/velocity/velocity-dep/1.4/velocity-dep-1.4.jar!/"/>
+        </CLASSES>
+        <SOURCES>
+          <root url="jar://D:/Apps/repository/appfuse/velocity/velocity-dep/1.4/velocity-dep-1.4-sources.jar!/"/>
+        </SOURCES>
+        <JAVADOC/>
+      </library> 
+    </orderEntry>  
+    <orderEntry type="module-library"> 
+      <library name="velocity-tools-view"> 
+        <JAVADOC/>  
+        <SOURCES/>  
+        <CLASSES>
+          <root url="jar://D:/Apps/repository/appfuse/velocity-tools/velocity-tools-view/1.0/velocity-tools-view-1.0.jar!/"/>
+        </CLASSES>
+        <SOURCES/>
+        <JAVADOC/>
+      </library> 
+    </orderEntry>  
+    <orderEntry type="module-library"> 
+      <library name="urlrewritefilter"> 
+        <JAVADOC/>  
+        <SOURCES/>  
+        <CLASSES>
+          <root url="jar://D:/Apps/repository/appfuse/org/tuckey/urlrewritefilter/3.0.4/urlrewritefilter-3.0.4.jar!/"/>
+        </CLASSES>
+        <SOURCES/>
+        <JAVADOC/>
+      </library> 
+    </orderEntry>  
+    <orderEntry type="module-library"> 
+      <library name="junit"> 
+        <JAVADOC> 
+          <root url="jar:///data/java/repository/junit/junit/4.4/junit-4.4-javadoc.jar!/"/> 
+        </JAVADOC>  
+        <SOURCES> 
+          <root url="jar:///data/java/repository/junit/junit/4.4/junit-4.4-sources.jar!/"/> 
+        </SOURCES>  
+        <CLASSES>
+          <root url="jar://D:/Apps/repository/appfuse/junit/junit/4.4/junit-4.4.jar!/"/>
+        </CLASSES>
+        <SOURCES>
+          <root url="jar://D:/Apps/repository/appfuse/junit/junit/4.4/junit-4.4-sources.jar!/"/>
+        </SOURCES>
+        <JAVADOC>
+          <root url="jar://D:/Apps/repository/appfuse/junit/junit/4.4/junit-4.4-javadoc.jar!/"/>
+        </JAVADOC>
+      </library> 
+    </orderEntry>  
+    <orderEntry type="module-library"> 
+      <library name="servlet-api"> 
+        <JAVADOC/>  
+        <SOURCES> 
+          <root url="jar:///data/java/repository/javax/servlet/servlet-api/2.4/servlet-api-2.4-sources.jar!/"/> 
+        </SOURCES>  
+        <CLASSES>
+          <root url="jar://D:/Apps/repository/appfuse/javax/servlet/servlet-api/2.4/servlet-api-2.4.jar!/"/>
+        </CLASSES>
+        <SOURCES>
+          <root url="jar://D:/Apps/repository/appfuse/javax/servlet/servlet-api/2.4/servlet-api-2.4-sources.jar!/"/>
+        </SOURCES>
+        <JAVADOC/>
+      </library> 
+    </orderEntry>  
+    <orderEntry type="module-library"> 
+      <library name="log4j"> 
+        <JAVADOC/>  
+        <SOURCES> 
+          <root url="jar:///data/java/repository/log4j/log4j/1.2.13/log4j-1.2.13-sources.jar!/"/> 
+        </SOURCES>  
+        <CLASSES>
+          <root url="jar://D:/Apps/repository/appfuse/log4j/log4j/1.2.13/log4j-1.2.13.jar!/"/>
+        </CLASSES>
+        <SOURCES>
+          <root url="jar://D:/Apps/repository/appfuse/log4j/log4j/1.2.13/log4j-1.2.13-sources.jar!/"/>
+        </SOURCES>
+        <JAVADOC/>
+      </library> 
+    </orderEntry>  
+    <orderEntry type="module-library"> 
+      <library name="subethasmtp-wiser"> 
+        <JAVADOC> 
+          <root url="jar:///data/java/repository/org/subethamail/subethasmtp-wiser/1.2/subethasmtp-wiser-1.2-javadoc.jar!/"/> 
+        </JAVADOC>  
+        <SOURCES> 
+          <root url="jar:///data/java/repository/org/subethamail/subethasmtp-wiser/1.2/subethasmtp-wiser-1.2-sources.jar!/"/> 
+        </SOURCES>  
+        <CLASSES>
+          <root url="jar://D:/Apps/repository/appfuse/org/subethamail/subethasmtp-wiser/1.2/subethasmtp-wiser-1.2.jar!/"/>
+        </CLASSES>
+        <SOURCES>
+          <root url="jar://D:/Apps/repository/appfuse/org/subethamail/subethasmtp-wiser/1.2/subethasmtp-wiser-1.2-sources.jar!/"/>
+        </SOURCES>
+        <JAVADOC>
+          <root url="jar://D:/Apps/repository/appfuse/org/subethamail/subethasmtp-wiser/1.2/subethasmtp-wiser-1.2-javadoc.jar!/"/>
+        </JAVADOC>
+      </library> 
+    </orderEntry>  
+    <orderEntry type="module-library"> 
+      <library name="subethasmtp-smtp"> 
+        <JAVADOC> 
+          <root url="jar:///data/java/repository/org/subethamail/subethasmtp-smtp/1.2/subethasmtp-smtp-1.2-javadoc.jar!/"/> 
+        </JAVADOC>  
+        <SOURCES> 
+          <root url="jar:///data/java/repository/org/subethamail/subethasmtp-smtp/1.2/subethasmtp-smtp-1.2-sources.jar!/"/> 
+        </SOURCES>  
+        <CLASSES>
+          <root url="jar://D:/Apps/repository/appfuse/org/subethamail/subethasmtp-smtp/1.2/subethasmtp-smtp-1.2.jar!/"/>
+        </CLASSES>
+        <SOURCES>
+          <root url="jar://D:/Apps/repository/appfuse/org/subethamail/subethasmtp-smtp/1.2/subethasmtp-smtp-1.2-sources.jar!/"/>
+        </SOURCES>
+        <JAVADOC>
+          <root url="jar://D:/Apps/repository/appfuse/org/subethamail/subethasmtp-smtp/1.2/subethasmtp-smtp-1.2-javadoc.jar!/"/>
+        </JAVADOC>
+      </library> 
+    </orderEntry>  
+    <orderEntry type="module-library"> 
+      <library name="mail"> 
+        <JAVADOC/>  
+        <SOURCES> 
+          <root url="jar:///data/java/repository/javax/mail/mail/1.4/mail-1.4-sources.jar!/"/> 
+        </SOURCES>  
+        <CLASSES>
+          <root url="jar://D:/Apps/repository/appfuse/javax/mail/mail/1.4/mail-1.4.jar!/"/>
+        </CLASSES>
+        <SOURCES>
+          <root url="jar://D:/Apps/repository/appfuse/javax/mail/mail/1.4/mail-1.4-sources.jar!/"/>
+        </SOURCES>
+        <JAVADOC/>
+      </library> 
+    </orderEntry>  
+    <orderEntry type="module-library"> 
+      <library name="activation"> 
+        <JAVADOC/>  
+        <SOURCES> 
+          <root url="jar:///data/java/repository/javax/activation/activation/1.1/activation-1.1-sources.jar!/"/> 
+        </SOURCES>  
+        <CLASSES>
+          <root url="jar://D:/Apps/repository/appfuse/javax/activation/activation/1.1/activation-1.1.jar!/"/>
+        </CLASSES>
+        <SOURCES>
+          <root url="jar://D:/Apps/repository/appfuse/javax/activation/activation/1.1/activation-1.1-sources.jar!/"/>
+        </SOURCES>
+        <JAVADOC/>
+      </library> 
+    </orderEntry>  
+    <orderEntry type="module-library"> 
+      <library name="jstl"> 
+        <JAVADOC/>  
+        <SOURCES> 
+          <root url="jar:///data/java/repository/javax/servlet/jstl/1.1.2/jstl-1.1.2-sources.jar!/"/> 
+        </SOURCES>  
+        <CLASSES>
+          <root url="jar://D:/Apps/repository/appfuse/javax/servlet/jstl/1.1.2/jstl-1.1.2.jar!/"/>
+        </CLASSES>
+        <SOURCES>
+          <root url="jar://D:/Apps/repository/appfuse/javax/servlet/jstl/1.1.2/jstl-1.1.2-sources.jar!/"/>
+        </SOURCES>
+        <JAVADOC/>
+      </library> 
+    </orderEntry>  
+    <orderEntry type="module-library"> 
+      <library name="commons-io"> 
+        <JAVADOC> 
+          <root url="jar:///data/java/repository/org/apache/commons/commons-io/1.3.2/commons-io-1.3.2-javadoc.jar!/"/> 
+        </JAVADOC>  
+        <SOURCES> 
+          <root url="jar:///data/java/repository/org/apache/commons/commons-io/1.3.2/commons-io-1.3.2-sources.jar!/"/> 
+        </SOURCES>  
+        <CLASSES>
+          <root url="jar://D:/Apps/repository/appfuse/org/apache/commons/commons-io/1.3.2/commons-io-1.3.2.jar!/"/>
+        </CLASSES>
+        <SOURCES>
+          <root url="jar://D:/Apps/repository/appfuse/org/apache/commons/commons-io/1.3.2/commons-io-1.3.2-sources.jar!/"/>
+        </SOURCES>
+        <JAVADOC>
+          <root url="jar://D:/Apps/repository/appfuse/org/apache/commons/commons-io/1.3.2/commons-io-1.3.2-javadoc.jar!/"/>
+        </JAVADOC>
+      </library> 
+    </orderEntry>  
+    <orderEntry type="module-library"> 
+      <library name="spring-aop"> 
+        <JAVADOC/>  
+        <SOURCES> 
+          <root url="jar:///data/java/repository/org/springframework/spring-aop/2.5.4/spring-aop-2.5.4-sources.jar!/"/> 
+        </SOURCES>  
+        <CLASSES>
+          <root url="jar://D:/Apps/repository/appfuse/org/springframework/spring-aop/2.5.4/spring-aop-2.5.4.jar!/"/>
+        </CLASSES>
+        <SOURCES>
+          <root url="jar://D:/Apps/repository/appfuse/org/springframework/spring-aop/2.5.4/spring-aop-2.5.4-sources.jar!/"/>
+        </SOURCES>
+        <JAVADOC/>
+      </library> 
+    </orderEntry>  
+    <orderEntry type="module-library"> 
+      <library name="displaytag"> 
+        <JAVADOC/>  
+        <SOURCES> 
+          <root url="jar:///data/java/repository/displaytag/displaytag/1.1.1/displaytag-1.1.1-sources.jar!/"/> 
+        </SOURCES>  
+        <CLASSES>
+          <root url="jar://D:/Apps/repository/appfuse/displaytag/displaytag/1.1.1/displaytag-1.1.1.jar!/"/>
+        </CLASSES>
+        <SOURCES>
+          <root url="jar://D:/Apps/repository/appfuse/displaytag/displaytag/1.1.1/displaytag-1.1.1-sources.jar!/"/>
+        </SOURCES>
+        <JAVADOC/>
+      </library> 
+    </orderEntry>  
+    <orderEntry type="module-library"> 
+      <library name="itext"> 
+        <JAVADOC/>  
+        <SOURCES> 
+          <root url="jar:///data/java/repository/com/lowagie/itext/1.3/itext-1.3-sources.jar!/"/> 
+        </SOURCES>  
+        <CLASSES>
+          <root url="jar://D:/Apps/repository/appfuse/com/lowagie/itext/1.3/itext-1.3.jar!/"/>
+        </CLASSES>
+        <SOURCES>
+          <root url="jar://D:/Apps/repository/appfuse/com/lowagie/itext/1.3/itext-1.3-sources.jar!/"/>
+        </SOURCES>
+        <JAVADOC/>
+      </library> 
+    </orderEntry>  
+    <orderEntry type="module-library"> 
+      <library name="jcl104-over-slf4j"> 
+        <JAVADOC/>  
+        <SOURCES> 
+          <root url="jar:///data/java/repository/org/slf4j/jcl104-over-slf4j/1.4.2/jcl104-over-slf4j-1.4.2-sources.jar!/"/> 
+        </SOURCES>  
+        <CLASSES>
+          <root url="jar://D:/Apps/repository/appfuse/org/slf4j/jcl104-over-slf4j/1.4.2/jcl104-over-slf4j-1.4.2.jar!/"/>
+        </CLASSES>
+        <SOURCES>
+          <root url="jar://D:/Apps/repository/appfuse/org/slf4j/jcl104-over-slf4j/1.4.2/jcl104-over-slf4j-1.4.2-sources.jar!/"/>
+        </SOURCES>
+        <JAVADOC/>
+      </library> 
+    </orderEntry>  
+    <orderEntry type="module-library"> 
+      <library name="slf4j-log4j12"> 
+        <JAVADOC/>  
+        <SOURCES> 
+          <root url="jar:///data/java/repository/org/slf4j/slf4j-log4j12/1.4.2/slf4j-log4j12-1.4.2-sources.jar!/"/> 
+        </SOURCES>  
+        <CLASSES>
+          <root url="jar://D:/Apps/repository/appfuse/org/slf4j/slf4j-log4j12/1.4.2/slf4j-log4j12-1.4.2.jar!/"/>
+        </CLASSES>
+        <SOURCES>
+          <root url="jar://D:/Apps/repository/appfuse/org/slf4j/slf4j-log4j12/1.4.2/slf4j-log4j12-1.4.2-sources.jar!/"/>
+        </SOURCES>
+        <JAVADOC/>
+      </library> 
+    </orderEntry>  
+    <orderEntry type="module-library"> 
+      <library name="slf4j-api"> 
+        <JAVADOC/>  
+        <SOURCES> 
+          <root url="jar:///data/java/repository/org/slf4j/slf4j-api/1.4.2/slf4j-api-1.4.2-sources.jar!/"/> 
+        </SOURCES>  
+        <CLASSES>
+          <root url="jar://D:/Apps/repository/appfuse/org/slf4j/slf4j-api/1.4.2/slf4j-api-1.4.2.jar!/"/>
+        </CLASSES>
+        <SOURCES>
+          <root url="jar://D:/Apps/repository/appfuse/org/slf4j/slf4j-api/1.4.2/slf4j-api-1.4.2-sources.jar!/"/>
+        </SOURCES>
+        <JAVADOC/>
+      </library> 
+    </orderEntry>  
+    <orderEntry type="module-library"> 
+      <library name="aspectjrt"> 
+        <JAVADOC> 
+          <root url="jar:///data/java/repository/org/aspectj/aspectjrt/1.6.0/aspectjrt-1.6.0-javadoc.jar!/"/> 
+        </JAVADOC>  
+        <SOURCES/>  
+        <CLASSES>
+          <root url="jar://D:/Apps/repository/appfuse/org/aspectj/aspectjrt/1.6.0/aspectjrt-1.6.0.jar!/"/>
+        </CLASSES>
+        <SOURCES/>
+        <JAVADOC>
+          <root url="jar://D:/Apps/repository/appfuse/org/aspectj/aspectjrt/1.6.0/aspectjrt-1.6.0-javadoc.jar!/"/>
+        </JAVADOC>
+      </library> 
+    </orderEntry>  
+    <orderEntry type="module-library"> 
+      <library name="spring-webmvc"> 
+        <JAVADOC/>  
+        <SOURCES> 
+          <root url="jar:///data/java/repository/org/springframework/spring-webmvc/2.5.4/spring-webmvc-2.5.4-sources.jar!/"/> 
+        </SOURCES>  
+        <CLASSES>
+          <root url="jar://D:/Apps/repository/appfuse/org/springframework/spring-webmvc/2.5.4/spring-webmvc-2.5.4.jar!/"/>
+        </CLASSES>
+        <SOURCES>
+          <root url="jar://D:/Apps/repository/appfuse/org/springframework/spring-webmvc/2.5.4/spring-webmvc-2.5.4-sources.jar!/"/>
+        </SOURCES>
+        <JAVADOC/>
+      </library> 
+    </orderEntry>  
+    <orderEntry type="module-library"> 
+      <library name="spring-context-support"> 
+        <JAVADOC/>  
+        <SOURCES> 
+          <root url="jar:///data/java/repository/org/springframework/spring-context-support/2.5.4/spring-context-support-2.5.4-sources.jar!/"/> 
+        </SOURCES>  
+        <CLASSES>
+          <root url="jar://D:/Apps/repository/appfuse/org/springframework/spring-context-support/2.5.4/spring-context-support-2.5.4.jar!/"/>
+        </CLASSES>
+        <SOURCES>
+          <root url="jar://D:/Apps/repository/appfuse/org/springframework/spring-context-support/2.5.4/spring-context-support-2.5.4-sources.jar!/"/>
+        </SOURCES>
+        <JAVADOC/>
+      </library> 
+    </orderEntry>  
+    <orderEntry type="module-library"> 
+      <library name="spring-web"> 
+        <JAVADOC/>  
+        <SOURCES> 
+          <root url="jar:///data/java/repository/org/springframework/spring-web/2.5.4/spring-web-2.5.4-sources.jar!/"/> 
+        </SOURCES>  
+        <CLASSES>
+          <root url="jar://D:/Apps/repository/appfuse/org/springframework/spring-web/2.5.4/spring-web-2.5.4.jar!/"/>
+        </CLASSES>
+        <SOURCES>
+          <root url="jar://D:/Apps/repository/appfuse/org/springframework/spring-web/2.5.4/spring-web-2.5.4-sources.jar!/"/>
+        </SOURCES>
+        <JAVADOC/>
+      </library> 
+    </orderEntry>  
+    <orderEntry type="module-library"> 
+      <library name="standard"> 
+        <JAVADOC/>  
+        <SOURCES> 
+          <root url="jar:///data/java/repository/taglibs/standard/1.1.2/standard-1.1.2-sources.jar!/"/> 
+        </SOURCES>  
+        <CLASSES>
+          <root url="jar://D:/Apps/repository/appfuse/taglibs/standard/1.1.2/standard-1.1.2.jar!/"/>
+        </CLASSES>
+        <SOURCES>
+          <root url="jar://D:/Apps/repository/appfuse/taglibs/standard/1.1.2/standard-1.1.2-sources.jar!/"/>
+        </SOURCES>
+        <JAVADOC/>
+      </library> 
+    </orderEntry>  
+    <orderEntry type="module-library"> 
+      <library name="hibernate-commons-annotations"> 
+        <JAVADOC> 
+          <root url="jar:///data/java/repository/org/hibernate/hibernate-commons-annotations/3.3.0.ga/hibernate-commons-annotations-3.3.0.ga-javadoc.jar!/"/> 
+        </JAVADOC>  
+        <SOURCES> 
+          <root url="jar:///data/java/repository/org/hibernate/hibernate-commons-annotations/3.3.0.ga/hibernate-commons-annotations-3.3.0.ga-sources.jar!/"/> 
+        </SOURCES>  
+        <CLASSES>
+          <root url="jar://D:/Apps/repository/appfuse/org/hibernate/hibernate-commons-annotations/3.3.0.ga/hibernate-commons-annotations-3.3.0.ga.jar!/"/>
+        </CLASSES>
+        <SOURCES>
+          <root url="jar://D:/Apps/repository/appfuse/org/hibernate/hibernate-commons-annotations/3.3.0.ga/hibernate-commons-annotations-3.3.0.ga-sources.jar!/"/>
+        </SOURCES>
+        <JAVADOC>
+          <root url="jar://D:/Apps/repository/appfuse/org/hibernate/hibernate-commons-annotations/3.3.0.ga/hibernate-commons-annotations-3.3.0.ga-javadoc.jar!/"/>
+        </JAVADOC>
+      </library> 
+    </orderEntry>  
+    <orderEntry type="module-library"> 
+      <library name="jsr107cache"> 
+        <JAVADOC/>  
+        <SOURCES> 
+          <root url="jar:///data/java/repository/net/sf/jsr107cache/jsr107cache/1.0/jsr107cache-1.0-sources.jar!/"/> 
+        </SOURCES>  
+        <CLASSES>
+          <root url="jar://D:/Apps/repository/appfuse/net/sf/jsr107cache/jsr107cache/1.0/jsr107cache-1.0.jar!/"/>
+        </CLASSES>
+        <SOURCES>
+          <root url="jar://D:/Apps/repository/appfuse/net/sf/jsr107cache/jsr107cache/1.0/jsr107cache-1.0-sources.jar!/"/>
+        </SOURCES>
+        <JAVADOC/>
+      </library> 
+    </orderEntry>  
+    <orderEntry type="module-library"> 
+      <library name="backport-util-concurrent"> 
+        <JAVADOC> 
+          <root url="jar:///data/java/repository/backport-util-concurrent/backport-util-concurrent/3.1/backport-util-concurrent-3.1-javadoc.jar!/"/> 
+        </JAVADOC>  
+        <SOURCES> 
+          <root url="jar:///data/java/repository/backport-util-concurrent/backport-util-concurrent/3.1/backport-util-concurrent-3.1-sources.jar!/"/> 
+        </SOURCES>  
+        <CLASSES>
+          <root url="jar://D:/Apps/repository/appfuse/backport-util-concurrent/backport-util-concurrent/3.1/backport-util-concurrent-3.1.jar!/"/>
+        </CLASSES>
+        <SOURCES>
+          <root url="jar://D:/Apps/repository/appfuse/backport-util-concurrent/backport-util-concurrent/3.1/backport-util-concurrent-3.1-sources.jar!/"/>
+        </SOURCES>
+        <JAVADOC>
+          <root url="jar://D:/Apps/repository/appfuse/backport-util-concurrent/backport-util-concurrent/3.1/backport-util-concurrent-3.1-javadoc.jar!/"/>
+        </JAVADOC>
+      </library> 
+    </orderEntry>  
+    <orderEntry type="module-library"> 
+      <library name="commons-fileupload"> 
+        <JAVADOC> 
+          <root url="jar:///data/java/repository/commons-fileupload/commons-fileupload/1.2.1/commons-fileupload-1.2.1-javadoc.jar!/"/> 
+        </JAVADOC>  
+        <SOURCES> 
+          <root url="jar:///data/java/repository/commons-fileupload/commons-fileupload/1.2.1/commons-fileupload-1.2.1-sources.jar!/"/> 
+        </SOURCES>  
+        <CLASSES>
+          <root url="jar://D:/Apps/repository/appfuse/commons-fileupload/commons-fileupload/1.2.1/commons-fileupload-1.2.1.jar!/"/>
+        </CLASSES>
+        <SOURCES>
+          <root url="jar://D:/Apps/repository/appfuse/commons-fileupload/commons-fileupload/1.2.1/commons-fileupload-1.2.1-sources.jar!/"/>
+        </SOURCES>
+        <JAVADOC>
+          <root url="jar://D:/Apps/repository/appfuse/commons-fileupload/commons-fileupload/1.2.1/commons-fileupload-1.2.1-javadoc.jar!/"/>
+        </JAVADOC>
+      </library> 
+    </orderEntry>  
+    <orderEntry type="module-library"> 
+      <library name="spring-security-taglibs"> 
+        <JAVADOC/>  
+        <SOURCES> 
+          <root url="jar:///data/java/repository/org/springframework/security/spring-security-taglibs/2.0.1/spring-security-taglibs-2.0.1-sources.jar!/"/> 
+        </SOURCES>  
+        <CLASSES>
+          <root url="jar://D:/Apps/repository/appfuse/org/springframework/security/spring-security-taglibs/2.0.1/spring-security-taglibs-2.0.1.jar!/"/>
+        </CLASSES>
+        <SOURCES>
+          <root url="jar://D:/Apps/repository/appfuse/org/springframework/security/spring-security-taglibs/2.0.1/spring-security-taglibs-2.0.1-sources.jar!/"/>
+        </SOURCES>
+        <JAVADOC/>
+      </library> 
+    </orderEntry>  
+    <orderEntry type="module-library"> 
+      <library name="spring-security-core"> 
+        <JAVADOC/>  
+        <SOURCES> 
+          <root url="jar:///data/java/repository/org/springframework/security/spring-security-core/2.0.1/spring-security-core-2.0.1-sources.jar!/"/> 
+        </SOURCES>  
+        <CLASSES>
+          <root url="jar://D:/Apps/repository/appfuse/org/springframework/security/spring-security-core/2.0.1/spring-security-core-2.0.1.jar!/"/>
+        </CLASSES>
+        <SOURCES>
+          <root url="jar://D:/Apps/repository/appfuse/org/springframework/security/spring-security-core/2.0.1/spring-security-core-2.0.1-sources.jar!/"/>
+        </SOURCES>
+        <JAVADOC/>
+      </library> 
+    </orderEntry>  
+    <orderEntry type="module-library"> 
+      <library name="commons-codec"> 
+        <JAVADOC> 
+          <root url="jar:///data/java/repository/commons-codec/commons-codec/1.3/commons-codec-1.3-javadoc.jar!/"/> 
+        </JAVADOC>  
+        <SOURCES> 
+          <root url="jar:///data/java/repository/commons-codec/commons-codec/1.3/commons-codec-1.3-sources.jar!/"/> 
+        </SOURCES>  
+        <CLASSES>
+          <root url="jar://D:/Apps/repository/appfuse/commons-codec/commons-codec/1.3/commons-codec-1.3.jar!/"/>
+        </CLASSES>
+        <SOURCES>
+          <root url="jar://D:/Apps/repository/appfuse/commons-codec/commons-codec/1.3/commons-codec-1.3-sources.jar!/"/>
+        </SOURCES>
+        <JAVADOC>
+          <root url="jar://D:/Apps/repository/appfuse/commons-codec/commons-codec/1.3/commons-codec-1.3-javadoc.jar!/"/>
+        </JAVADOC>
+      </library> 
+    </orderEntry>  
+    <orderEntry type="module-library"> 
+      <library name="spring-security-acl"> 
+        <JAVADOC/>  
+        <SOURCES> 
+          <root url="jar:///data/java/repository/org/springframework/security/spring-security-acl/2.0.1/spring-security-acl-2.0.1-sources.jar!/"/> 
+        </SOURCES>  
+        <CLASSES>
+          <root url="jar://D:/Apps/repository/appfuse/org/springframework/security/spring-security-acl/2.0.1/spring-security-acl-2.0.1.jar!/"/>
+        </CLASSES>
+        <SOURCES>
+          <root url="jar://D:/Apps/repository/appfuse/org/springframework/security/spring-security-acl/2.0.1/spring-security-acl-2.0.1-sources.jar!/"/>
+        </SOURCES>
+        <JAVADOC/>
+      </library> 
+    </orderEntry>  
+    <orderEntry type="module-library"> 
+      <library name="struts2-codebehind-plugin"> 
+        <JAVADOC> 
+          <root url="jar:///data/java/repository/org/apache/struts/struts2-codebehind-plugin/2.0.11.1/struts2-codebehind-plugin-2.0.11.1-javadoc.jar!/"/> 
+        </JAVADOC>  
+        <SOURCES> 
+          <root url="jar:///data/java/repository/org/apache/struts/struts2-codebehind-plugin/2.0.11.1/struts2-codebehind-plugin-2.0.11.1-sources.jar!/"/> 
+        </SOURCES>  
+        <CLASSES>
+          <root url="jar://D:/Apps/repository/appfuse/org/apache/struts/struts2-codebehind-plugin/2.0.11.1/struts2-codebehind-plugin-2.0.11.1.jar!/"/>
+        </CLASSES>
+        <SOURCES>
+          <root url="jar://D:/Apps/repository/appfuse/org/apache/struts/struts2-codebehind-plugin/2.0.11.1/struts2-codebehind-plugin-2.0.11.1-sources.jar!/"/>
+        </SOURCES>
+        <JAVADOC>
+          <root url="jar://D:/Apps/repository/appfuse/org/apache/struts/struts2-codebehind-plugin/2.0.11.1/struts2-codebehind-plugin-2.0.11.1-javadoc.jar!/"/>
+        </JAVADOC>
+      </library> 
+    </orderEntry>  
+    <orderEntry type="module-library"> 
+      <library name="spring-aspects"> 
+        <JAVADOC/>  
+        <SOURCES> 
+          <root url="jar:///data/java/repository/org/springframework/spring-aspects/2.5.4/spring-aspects-2.5.4-sources.jar!/"/> 
+        </SOURCES>  
+        <CLASSES>
+          <root url="jar://D:/Apps/repository/appfuse/org/springframework/spring-aspects/2.5.4/spring-aspects-2.5.4.jar!/"/>
+        </CLASSES>
+        <SOURCES>
+          <root url="jar://D:/Apps/repository/appfuse/org/springframework/spring-aspects/2.5.4/spring-aspects-2.5.4-sources.jar!/"/>
+        </SOURCES>
+        <JAVADOC/>
+      </library> 
+    </orderEntry>  
+    <orderEntry type="module-library"> 
+      <library name="spring-orm"> 
+        <JAVADOC/>  
+        <SOURCES> 
+          <root url="jar:///data/java/repository/org/springframework/spring-orm/2.5.4/spring-orm-2.5.4-sources.jar!/"/> 
+        </SOURCES>  
+        <CLASSES>
+          <root url="jar://D:/Apps/repository/appfuse/org/springframework/spring-orm/2.5.4/spring-orm-2.5.4.jar!/"/>
+        </CLASSES>
+        <SOURCES>
+          <root url="jar://D:/Apps/repository/appfuse/org/springframework/spring-orm/2.5.4/spring-orm-2.5.4-sources.jar!/"/>
+        </SOURCES>
+        <JAVADOC/>
+      </library> 
+    </orderEntry>  
+    <orderEntry type="module-library"> 
+      <library name="dwr"> 
+        <JAVADOC> 
+          <root url="jar:///data/java/repository/org/directwebremoting/dwr/2.0.1/dwr-2.0.1-javadoc.jar!/"/> 
+        </JAVADOC>  
+        <SOURCES> 
+          <root url="jar:///data/java/repository/org/directwebremoting/dwr/2.0.1/dwr-2.0.1-sources.jar!/"/> 
+        </SOURCES>  
+        <CLASSES>
+          <root url="jar://D:/Apps/repository/appfuse/org/directwebremoting/dwr/2.0.1/dwr-2.0.1.jar!/"/>
+        </CLASSES>
+        <SOURCES>
+          <root url="jar://D:/Apps/repository/appfuse/org/directwebremoting/dwr/2.0.1/dwr-2.0.1-sources.jar!/"/>
+        </SOURCES>
+        <JAVADOC>
+          <root url="jar://D:/Apps/repository/appfuse/org/directwebremoting/dwr/2.0.1/dwr-2.0.1-javadoc.jar!/"/>
+        </JAVADOC>
+      </library> 
+    </orderEntry>  
+    <orderEntry type="module-library"> 
+      <library name="jmock"> 
+        <JAVADOC/>  
+        <SOURCES/>  
+        <CLASSES>
+          <root url="jar://D:/Apps/repository/appfuse/org/jmock/jmock/2.4.0/jmock-2.4.0.jar!/"/>
+        </CLASSES>
+        <SOURCES/>
+        <JAVADOC/>
+      </library> 
+    </orderEntry>  
+    <orderEntry type="module-library"> 
+      <library name="hamcrest-core"> 
+        <JAVADOC/>  
+        <SOURCES> 
+          <root url="jar:///data/java/repository/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1-sources.jar!/"/> 
+        </SOURCES>  
+        <CLASSES>
+          <root url="jar://D:/Apps/repository/appfuse/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar!/"/>
+        </CLASSES>
+        <SOURCES>
+          <root url="jar://D:/Apps/repository/appfuse/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1-sources.jar!/"/>
+        </SOURCES>
+        <JAVADOC/>
+      </library> 
+    </orderEntry>  
+    <orderEntry type="module-library"> 
+      <library name="hamcrest-library"> 
+        <JAVADOC/>  
+        <SOURCES> 
+          <root url="jar:///data/java/repository/org/hamcrest/hamcrest-library/1.1/hamcrest-library-1.1-sources.jar!/"/> 
+        </SOURCES>  
+        <CLASSES>
+          <root url="jar://D:/Apps/repository/appfuse/org/hamcrest/hamcrest-library/1.1/hamcrest-library-1.1.jar!/"/>
+        </CLASSES>
+        <SOURCES>
+          <root url="jar://D:/Apps/repository/appfuse/org/hamcrest/hamcrest-library/1.1/hamcrest-library-1.1-sources.jar!/"/>
+        </SOURCES>
+        <JAVADOC/>
+      </library> 
+    </orderEntry>  
+    <orderEntry type="module-library"> 
+      <library name="spring-security-core-tiger"> 
+        <JAVADOC/>  
+        <SOURCES> 
+          <root url="jar:///data/java/repository/org/springframework/security/spring-security-core-tiger/2.0.1/spring-security-core-tiger-2.0.1-sources.jar!/"/> 
+        </SOURCES>  
+        <CLASSES>
+          <root url="jar://D:/Apps/repository/appfuse/org/springframework/security/spring-security-core-tiger/2.0.1/spring-security-core-tiger-2.0.1.jar!/"/>
+        </CLASSES>
+        <SOURCES>
+          <root url="jar://D:/Apps/repository/appfuse/org/springframework/security/spring-security-core-tiger/2.0.1/spring-security-core-tiger-2.0.1-sources.jar!/"/>
+        </SOURCES>
+        <JAVADOC/>
+      </library> 
+    </orderEntry>  
+    <orderEntry type="module-library"> 
+      <library name="xfire-java5"> 
+        <JAVADOC> 
+          <root url="jar:///data/java/repository/org/codehaus/xfire/xfire-java5/1.2.6/xfire-java5-1.2.6-javadoc.jar!/"/> 
+        </JAVADOC>  
+        <SOURCES> 
+          <root url="jar:///data/java/repository/org/codehaus/xfire/xfire-java5/1.2.6/xfire-java5-1.2.6-sources.jar!/"/> 
+        </SOURCES>  
+        <CLASSES>
+          <root url="jar://D:/Apps/repository/appfuse/org/codehaus/xfire/xfire-java5/1.2.6/xfire-java5-1.2.6.jar!/"/>
+        </CLASSES>
+        <SOURCES>
+          <root url="jar://D:/Apps/repository/appfuse/org/codehaus/xfire/xfire-java5/1.2.6/xfire-java5-1.2.6-sources.jar!/"/>
+        </SOURCES>
+        <JAVADOC>
+          <root url="jar://D:/Apps/repository/appfuse/org/codehaus/xfire/xfire-java5/1.2.6/xfire-java5-1.2.6-javadoc.jar!/"/>
+        </JAVADOC>
+      </library> 
+    </orderEntry>  
+    <orderEntry type="module-library"> 
+      <library name="xfire-aegis"> 
+        <JAVADOC> 
+          <root url="jar:///data/java/repository/org/codehaus/xfire/xfire-aegis/1.2.6/xfire-aegis-1.2.6-javadoc.jar!/"/> 
+        </JAVADOC>  
+        <SOURCES> 
+          <root url="jar:///data/java/repository/org/codehaus/xfire/xfire-aegis/1.2.6/xfire-aegis-1.2.6-sources.jar!/"/> 
+        </SOURCES>  
+        <CLASSES>
+          <root url="jar://D:/Apps/repository/appfuse/org/codehaus/xfire/xfire-aegis/1.2.6/xfire-aegis-1.2.6.jar!/"/>
+        </CLASSES>
+        <SOURCES>
+          <root url="jar://D:/Apps/repository/appfuse/org/codehaus/xfire/xfire-aegis/1.2.6/xfire-aegis-1.2.6-sources.jar!/"/>
+        </SOURCES>
+        <JAVADOC>
+          <root url="jar://D:/Apps/repository/appfuse/org/codehaus/xfire/xfire-aegis/1.2.6/xfire-aegis-1.2.6-javadoc.jar!/"/>
+        </JAVADOC>
+      </library> 
+    </orderEntry>  
+    <orderEntry type="module-library"> 
+      <library name="xfire-core"> 
+        <JAVADOC> 
+          <root url="jar:///data/java/repository/org/codehaus/xfire/xfire-core/1.2.6/xfire-core-1.2.6-javadoc.jar!/"/> 
+        </JAVADOC>  
+        <SOURCES> 
+          <root url="jar:///data/java/repository/org/codehaus/xfire/xfire-core/1.2.6/xfire-core-1.2.6-sources.jar!/"/> 
+        </SOURCES>  
+        <CLASSES>
+          <root url="jar://D:/Apps/repository/appfuse/org/codehaus/xfire/xfire-core/1.2.6/xfire-core-1.2.6.jar!/"/>
+        </CLASSES>
+        <SOURCES>
+          <root url="jar://D:/Apps/repository/appfuse/org/codehaus/xfire/xfire-core/1.2.6/xfire-core-1.2.6-sources.jar!/"/>
+        </SOURCES>
+        <JAVADOC>
+          <root url="jar://D:/Apps/repository/appfuse/org/codehaus/xfire/xfire-core/1.2.6/xfire-core-1.2.6-javadoc.jar!/"/>
+        </JAVADOC>
+      </library> 
+    </orderEntry>  
+    <orderEntry type="module-library"> 
+      <library name="wsdl4j"> 
+        <JAVADOC> 
+          <root url="jar:///data/java/repository/wsdl4j/wsdl4j/1.6.1/wsdl4j-1.6.1-javadoc.jar!/"/> 
+        </JAVADOC>  
+        <SOURCES> 
+          <root url="jar:///data/java/repository/wsdl4j/wsdl4j/1.6.1/wsdl4j-1.6.1-sources.jar!/"/> 
+        </SOURCES>  
+        <CLASSES>
+          <root url="jar://D:/Apps/repository/appfuse/wsdl4j/wsdl4j/1.6.1/wsdl4j-1.6.1.jar!/"/>
+        </CLASSES>
+        <SOURCES>
+          <root url="jar://D:/Apps/repository/appfuse/wsdl4j/wsdl4j/1.6.1/wsdl4j-1.6.1-sources.jar!/"/>
+        </SOURCES>
+        <JAVADOC>
+          <root url="jar://D:/Apps/repository/appfuse/wsdl4j/wsdl4j/1.6.1/wsdl4j-1.6.1-javadoc.jar!/"/>
+        </JAVADOC>
+      </library> 
+    </orderEntry>  
+    <orderEntry type="module-library"> 
+      <library name="stax-api"> 
+        <JAVADOC/>  
+        <SOURCES/>  
+        <CLASSES>
+          <root url="jar://D:/Apps/repository/appfuse/stax/stax-api/1.0.1/stax-api-1.0.1.jar!/"/>
+        </CLASSES>
+        <SOURCES/>
+        <JAVADOC/>
+      </library> 
+    </orderEntry>  
+    <orderEntry type="module-library"> 
+      <library name="wstx-asl"> 
+        <JAVADOC/>  
+        <SOURCES/>  
+        <CLASSES>
+          <root url="jar://D:/Apps/repository/appfuse/org/codehaus/woodstox/wstx-asl/3.2.0/wstx-asl-3.2.0.jar!/"/>
+        </CLASSES>
+        <SOURCES/>
+        <JAVADOC/>
+      </library> 
+    </orderEntry>  
+    <orderEntry type="module-library"> 
+      <library name="jdom"> 
+        <JAVADOC/>  
+        <SOURCES> 
+          <root url="jar:///data/java/repository/jdom/jdom/1.0/jdom-1.0-sources.jar!/"/> 
+        </SOURCES>  
+        <CLASSES>
+          <root url="jar://D:/Apps/repository/appfuse/jdom/jdom/1.0/jdom-1.0.jar!/"/>
+        </CLASSES>
+        <SOURCES>
+          <root url="jar://D:/Apps/repository/appfuse/jdom/jdom/1.0/jdom-1.0-sources.jar!/"/>
+        </SOURCES>
+        <JAVADOC/>
+      </library> 
+    </orderEntry>  
+    <orderEntry type="module-library"> 
+      <library name="commons-httpclient"> 
+        <JAVADOC/>  
+        <SOURCES> 
+          <root url="jar:///data/java/repository/commons-httpclient/commons-httpclient/3.0/commons-httpclient-3.0-sources.jar!/"/> 
+        </SOURCES>  
+        <CLASSES>
+          <root url="jar://D:/Apps/repository/appfuse/commons-httpclient/commons-httpclient/3.0/commons-httpclient-3.0.jar!/"/>
+        </CLASSES>
+        <SOURCES>
+          <root url="jar://D:/Apps/repository/appfuse/commons-httpclient/commons-httpclient/3.0/commons-httpclient-3.0-sources.jar!/"/>
+        </SOURCES>
+        <JAVADOC/>
+      </library> 
+    </orderEntry>  
+    <orderEntry type="module-library"> 
+      <library name="stax-utils"> 
+        <JAVADOC/>  
+        <SOURCES/>  
+        <CLASSES>
+          <root url="jar://D:/Apps/repository/appfuse/net/java/dev/stax-utils/stax-utils/20040917/stax-utils-20040917.jar!/"/>
+        </CLASSES>
+        <SOURCES/>
+        <JAVADOC/>
+      </library> 
+    </orderEntry>  
+    <orderEntry type="module-library"> 
+      <library name="xfire-annotations"> 
+        <JAVADOC> 
+          <root url="jar:///data/java/repository/org/codehaus/xfire/xfire-annotations/1.2.6/xfire-annotations-1.2.6-javadoc.jar!/"/> 
+        </JAVADOC>  
+        <SOURCES> 
+          <root url="jar:///data/java/repository/org/codehaus/xfire/xfire-annotations/1.2.6/xfire-annotations-1.2.6-sources.jar!/"/> 
+        </SOURCES>  
+        <CLASSES>
+          <root url="jar://D:/Apps/repository/appfuse/org/codehaus/xfire/xfire-annotations/1.2.6/xfire-annotations-1.2.6.jar!/"/>
+        </CLASSES>
+        <SOURCES>
+          <root url="jar://D:/Apps/repository/appfuse/org/codehaus/xfire/xfire-annotations/1.2.6/xfire-annotations-1.2.6-sources.jar!/"/>
+        </SOURCES>
+        <JAVADOC>
+          <root url="jar://D:/Apps/repository/appfuse/org/codehaus/xfire/xfire-annotations/1.2.6/xfire-annotations-1.2.6-javadoc.jar!/"/>
+        </JAVADOC>
+      </library> 
+    </orderEntry>  
+    <orderEntry type="module-library"> 
+      <library name="xfire-jsr181-api"> 
+        <JAVADOC/>  
+        <SOURCES/>  
+        <CLASSES>
+          <root url="jar://D:/Apps/repository/appfuse/xfire/xfire-jsr181-api/1.0-M1/xfire-jsr181-api-1.0-M1.jar!/"/>
+        </CLASSES>
+        <SOURCES/>
+        <JAVADOC/>
+      </library> 
+    </orderEntry>  
+    <orderEntry type="module-library"> 
+      <library name="mysql-connector-java"> 
+        <JAVADOC/>  
+        <SOURCES/>  
+        <CLASSES>
+          <root url="jar://D:/Apps/repository/appfuse/mysql/mysql-connector-java/5.0.5/mysql-connector-java-5.0.5.jar!/"/>
+        </CLASSES>
+        <SOURCES/>
+        <JAVADOC/>
+      </library> 
+    </orderEntry>  
+    <orderEntry type="module-library"> 
+      <library name="clickstream"> 
+        <JAVADOC/>  
+        <SOURCES/>  
+        <CLASSES>
+          <root url="jar://D:/Apps/repository/appfuse/opensymphony/clickstream/1.0.2/clickstream-1.0.2.jar!/"/>
+        </CLASSES>
+        <SOURCES/>
+        <JAVADOC/>
+      </library> 
+    </orderEntry>  
+    <orderEntry type="module-library"> 
+      <library name="commons-dbcp"> 
+        <JAVADOC> 
+          <root url="jar:///data/java/repository/commons-dbcp/commons-dbcp/1.2.1/commons-dbcp-1.2.1-javadoc.jar!/"/> 
+        </JAVADOC>  
+        <SOURCES> 
+          <root url="jar:///data/java/repository/commons-dbcp/commons-dbcp/1.2.1/commons-dbcp-1.2.1-sources.jar!/"/> 
+        </SOURCES>  
+        <CLASSES>
+          <root url="jar://D:/Apps/repository/appfuse/commons-dbcp/commons-dbcp/1.2.1/commons-dbcp-1.2.1.jar!/"/>
+        </CLASSES>
+        <SOURCES>
+          <root url="jar://D:/Apps/repository/appfuse/commons-dbcp/commons-dbcp/1.2.1/commons-dbcp-1.2.1-sources.jar!/"/>
+        </SOURCES>
+        <JAVADOC>
+          <root url="jar://D:/Apps/repository/appfuse/commons-dbcp/commons-dbcp/1.2.1/commons-dbcp-1.2.1-javadoc.jar!/"/>
+        </JAVADOC>
+      </library> 
+    </orderEntry>  
+    <orderEntry type="module-library"> 
+      <library name="commons-pool"> 
+        <JAVADOC> 
+          <root url="jar:///data/java/repository/commons-pool/commons-pool/1.2/commons-pool-1.2-javadoc.jar!/"/> 
+        </JAVADOC>  
+        <SOURCES> 
+          <root url="jar:///data/java/repository/commons-pool/commons-pool/1.2/commons-pool-1.2-sources.jar!/"/> 
+        </SOURCES>  
+        <CLASSES>
+          <root url="jar://D:/Apps/repository/appfuse/commons-pool/commons-pool/1.2/commons-pool-1.2.jar!/"/>
+        </CLASSES>
+        <SOURCES>
+          <root url="jar://D:/Apps/repository/appfuse/commons-pool/commons-pool/1.2/commons-pool-1.2-sources.jar!/"/>
+        </SOURCES>
+        <JAVADOC>
+          <root url="jar://D:/Apps/repository/appfuse/commons-pool/commons-pool/1.2/commons-pool-1.2-javadoc.jar!/"/>
+        </JAVADOC>
+      </library> 
+    </orderEntry>  
+    <orderEntry type="module-library"> 
+      <library name="xml-apis"> 
+        <JAVADOC/>  
+        <SOURCES> 
+          <root url="jar:///data/java/repository/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2-sources.jar!/"/> 
+        </SOURCES>  
+        <CLASSES>
+          <root url="jar://D:/Apps/repository/appfuse/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.jar!/"/>
+        </CLASSES>
+        <SOURCES>
+          <root url="jar://D:/Apps/repository/appfuse/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2-sources.jar!/"/>
+        </SOURCES>
+        <JAVADOC/>
+      </library> 
+    </orderEntry>  
+    <orderEntry type="module-library"> 
+      <library name="struts2-spring-plugin"> 
+        <JAVADOC> 
+          <root url="jar:///data/java/repository/org/apache/struts/struts2-spring-plugin/2.0.11.1/struts2-spring-plugin-2.0.11.1-javadoc.jar!/"/> 
+        </JAVADOC>  
+        <SOURCES> 
+          <root url="jar:///data/java/repository/org/apache/struts/struts2-spring-plugin/2.0.11.1/struts2-spring-plugin-2.0.11.1-sources.jar!/"/> 
+        </SOURCES>  
+        <CLASSES>
+          <root url="jar://D:/Apps/repository/appfuse/org/apache/struts/struts2-spring-plugin/2.0.11.1/struts2-spring-plugin-2.0.11.1.jar!/"/>
+        </CLASSES>
+        <SOURCES>
+          <root url="jar://D:/Apps/repository/appfuse/org/apache/struts/struts2-spring-plugin/2.0.11.1/struts2-spring-plugin-2.0.11.1-sources.jar!/"/>
+        </SOURCES>
+        <JAVADOC>
+          <root url="jar://D:/Apps/repository/appfuse/org/apache/struts/struts2-spring-plugin/2.0.11.1/struts2-spring-plugin-2.0.11.1-javadoc.jar!/"/>
+        </JAVADOC>
+      </library> 
+    </orderEntry>  
+    <orderEntry type="module-library"> 
+      <library name="spring-test"> 
+        <JAVADOC/>  
+        <SOURCES> 
+          <root url="jar:///data/java/repository/org/springframework/spring-test/2.5.4/spring-test-2.5.4-sources.jar!/"/> 
+        </SOURCES>  
+        <CLASSES>
+          <root url="jar://D:/Apps/repository/appfuse/org/springframework/spring-test/2.5.4/spring-test-2.5.4.jar!/"/>
+        </CLASSES>
+        <SOURCES>
+          <root url="jar://D:/Apps/repository/appfuse/org/springframework/spring-test/2.5.4/spring-test-2.5.4-sources.jar!/"/>
+        </SOURCES>
+        <JAVADOC/>
+      </library> 
+    </orderEntry>  
+    <orderEntry type="module-library"> 
+      <library name="xfire-spring"> 
+        <JAVADOC> 
+          <root url="jar:///data/java/repository/org/codehaus/xfire/xfire-spring/1.2.6/xfire-spring-1.2.6-javadoc.jar!/"/> 
+        </JAVADOC>  
+        <SOURCES> 
+          <root url="jar:///data/java/repository/org/codehaus/xfire/xfire-spring/1.2.6/xfire-spring-1.2.6-sources.jar!/"/> 
+        </SOURCES>  
+        <CLASSES>
+          <root url="jar://D:/Apps/repository/appfuse/org/codehaus/xfire/xfire-spring/1.2.6/xfire-spring-1.2.6.jar!/"/>
+        </CLASSES>
+        <SOURCES>
+          <root url="jar://D:/Apps/repository/appfuse/org/codehaus/xfire/xfire-spring/1.2.6/xfire-spring-1.2.6-sources.jar!/"/>
+        </SOURCES>
+        <JAVADOC>
+          <root url="jar://D:/Apps/repository/appfuse/org/codehaus/xfire/xfire-spring/1.2.6/xfire-spring-1.2.6-javadoc.jar!/"/>
+        </JAVADOC>
+      </library> 
+    </orderEntry>  
+    <orderEntry type="module-library"> 
+      <library name="xbean-spring"> 
+        <JAVADOC/>  
+        <SOURCES> 
+          <root url="jar:///data/java/repository/org/apache/xbean/xbean-spring/2.8/xbean-spring-2.8-sources.jar!/"/> 
+        </SOURCES>  
+        <CLASSES>
+          <root url="jar://D:/Apps/repository/appfuse/org/apache/xbean/xbean-spring/2.8/xbean-spring-2.8.jar!/"/>
+        </CLASSES>
+        <SOURCES>
+          <root url="jar://D:/Apps/repository/appfuse/org/apache/xbean/xbean-spring/2.8/xbean-spring-2.8-sources.jar!/"/>
+        </SOURCES>
+        <JAVADOC/>
+      </library> 
+    </orderEntry>  
+    <orderEntry type="module-library"> 
+      <library name="xfire-xmlbeans"> 
+        <JAVADOC> 
+          <root url="jar:///data/java/repository/org/codehaus/xfire/xfire-xmlbeans/1.2.6/xfire-xmlbeans-1.2.6-javadoc.jar!/"/> 
+        </JAVADOC>  
+        <SOURCES> 
+          <root url="jar:///data/java/repository/org/codehaus/xfire/xfire-xmlbeans/1.2.6/xfire-xmlbeans-1.2.6-sources.jar!/"/> 
+        </SOURCES>  
+        <CLASSES>
+          <root url="jar://D:/Apps/repository/appfuse/org/codehaus/xfire/xfire-xmlbeans/1.2.6/xfire-xmlbeans-1.2.6.jar!/"/>
+        </CLASSES>
+        <SOURCES>
+          <root url="jar://D:/Apps/repository/appfuse/org/codehaus/xfire/xfire-xmlbeans/1.2.6/xfire-xmlbeans-1.2.6-sources.jar!/"/>
+        </SOURCES>
+        <JAVADOC>
+          <root url="jar://D:/Apps/repository/appfuse/org/codehaus/xfire/xfire-xmlbeans/1.2.6/xfire-xmlbeans-1.2.6-javadoc.jar!/"/>
+        </JAVADOC>
+      </library> 
+    </orderEntry>  
+    <orderEntry type="module-library"> 
+      <library name="xbean"> 
+        <JAVADOC> 
+          <root url="jar:///data/java/repository/xmlbeans/xbean/2.2.0/xbean-2.2.0-javadoc.jar!/"/> 
+        </JAVADOC>  
+        <SOURCES/>  
+        <CLASSES>
+          <root url="jar://D:/Apps/repository/appfuse/xmlbeans/xbean/2.2.0/xbean-2.2.0.jar!/"/>
+        </CLASSES>
+        <SOURCES/>
+        <JAVADOC>
+          <root url="jar://D:/Apps/repository/appfuse/xmlbeans/xbean/2.2.0/xbean-2.2.0-javadoc.jar!/"/>
+        </JAVADOC>
+      </library> 
+    </orderEntry>  
+    <orderEntry type="module-library"> 
+      <library name="oscache"> 
+        <JAVADOC/>  
+        <SOURCES> 
+          <root url="jar:///data/java/repository/opensymphony/oscache/2.3/oscache-2.3-sources.jar!/"/> 
+        </SOURCES>  
+        <CLASSES>
+          <root url="jar://D:/Apps/repository/appfuse/opensymphony/oscache/2.3/oscache-2.3.jar!/"/>
+        </CLASSES>
+        <SOURCES>
+          <root url="jar://D:/Apps/repository/appfuse/opensymphony/oscache/2.3/oscache-2.3-sources.jar!/"/>
+        </SOURCES>
+        <JAVADOC/>
+      </library> 
+    </orderEntry>  
+    <orderEntry type="module-library"> 
+      <library name="jmock-junit4"> 
+        <JAVADOC/>  
+        <SOURCES/>  
+        <CLASSES>
+          <root url="jar://D:/Apps/repository/appfuse/org/jmock/jmock-junit4/2.4.0/jmock-junit4-2.4.0.jar!/"/>
+        </CLASSES>
+        <SOURCES/>
+        <JAVADOC/>
+      </library> 
+    </orderEntry>  
+    <orderEntry type="module-library"> 
+      <library name="junit-dep"> 
+        <JAVADOC/>  
+        <SOURCES/>  
+        <CLASSES>
+          <root url="jar://D:/Apps/repository/appfuse/junit/junit-dep/4.4/junit-dep-4.4.jar!/"/>
+        </CLASSES>
+        <SOURCES/>
+        <JAVADOC/>
+      </library> 
+    </orderEntry>  
+    <orderEntry type="module-library"> 
+      <library name="jsp-api"> 
+        <JAVADOC/>  
+        <SOURCES/>  
+        <CLASSES>
+          <root url="jar://D:/Apps/repository/appfuse/javax/servlet/jsp-api/2.0/jsp-api-2.0.jar!/"/>
+        </CLASSES>
+        <SOURCES/>
+        <JAVADOC/>
+      </library> 
+    </orderEntry> 
+  </component>  
+  <component name="WebModuleBuildComponent">
+    <setting name="EXPLODED_URL" value="file://$MODULE_DIR$/target/keyManageWebInt"/>
+  </component>
+  <component name="WebModuleProperties">
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1"/>
+      <attribute name="URI" value="/WEB-INF/lib/spring-security-core-tiger-2.0.1.jar"/>
+      <url>jar://D:/Apps/repository/appfuse/org/springframework/security/spring-security-core-tiger/2.0.1/spring-security-core-tiger-2.0.1.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1"/>
+      <attribute name="URI" value="/WEB-INF/lib/spring-security-core-2.0.1.jar"/>
+      <url>jar://D:/Apps/repository/appfuse/org/springframework/security/spring-security-core/2.0.1/spring-security-core-2.0.1.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1"/>
+      <attribute name="URI" value="/WEB-INF/lib/spring-context-2.5.4.jar"/>
+      <url>jar://D:/Apps/repository/appfuse/org/springframework/spring-context/2.5.4/spring-context-2.5.4.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1"/>
+      <attribute name="URI" value="/WEB-INF/lib/aopalliance-1.0.jar"/>
+      <url>jar://D:/Apps/repository/appfuse/aopalliance/aopalliance/1.0/aopalliance-1.0.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1"/>
+      <attribute name="URI" value="/WEB-INF/lib/commons-logging-1.1.1.jar"/>
+      <url>jar://D:/Apps/repository/appfuse/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1"/>
+      <attribute name="URI" value="/WEB-INF/lib/log4j-1.2.13.jar"/>
+      <url>jar://D:/Apps/repository/appfuse/log4j/log4j/1.2.13/log4j-1.2.13.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="0"/>
+      <attribute name="URI" value="/WEB-INF/lib/servlet-api-2.4.jar"/>
+      <url>jar://D:/Apps/repository/appfuse/javax/servlet/servlet-api/2.4/servlet-api-2.4.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1"/>
+      <attribute name="URI" value="/WEB-INF/lib/spring-beans-2.5.4.jar"/>
+      <url>jar://D:/Apps/repository/appfuse/org/springframework/spring-beans/2.5.4/spring-beans-2.5.4.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1"/>
+      <attribute name="URI" value="/WEB-INF/lib/spring-aop-2.5.4.jar"/>
+      <url>jar://D:/Apps/repository/appfuse/org/springframework/spring-aop/2.5.4/spring-aop-2.5.4.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1"/>
+      <attribute name="URI" value="/WEB-INF/lib/commons-codec-1.3.jar"/>
+      <url>jar://D:/Apps/repository/appfuse/commons-codec/commons-codec/1.3/commons-codec-1.3.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1"/>
+      <attribute name="URI" value="/WEB-INF/lib/commons-collections-3.2.jar"/>
+      <url>jar://D:/Apps/repository/appfuse/commons-collections/commons-collections/3.2/commons-collections-3.2.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="0"/>
+      <attribute name="URI" value="/WEB-INF/lib/jsp-api-2.0.jar"/>
+      <url>jar://D:/Apps/repository/appfuse/javax/servlet/jsp-api/2.0/jsp-api-2.0.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1"/>
+      <attribute name="URI" value="/WEB-INF/lib/spring-jdbc-2.5.4.jar"/>
+      <url>jar://D:/Apps/repository/appfuse/org/springframework/spring-jdbc/2.5.4/spring-jdbc-2.5.4.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1"/>
+      <attribute name="URI" value="/WEB-INF/lib/spring-core-2.5.4.jar"/>
+      <url>jar://D:/Apps/repository/appfuse/org/springframework/spring-core/2.5.4/spring-core-2.5.4.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1"/>
+      <attribute name="URI" value="/WEB-INF/lib/spring-tx-2.5.4.jar"/>
+      <url>jar://D:/Apps/repository/appfuse/org/springframework/spring-tx/2.5.4/spring-tx-2.5.4.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1"/>
+      <attribute name="URI" value="/WEB-INF/lib/hibernate-3.2.6.ga.jar"/>
+      <url>jar://D:/Apps/repository/appfuse/org/hibernate/hibernate/3.2.6.ga/hibernate-3.2.6.ga.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1"/>
+      <attribute name="URI" value="/WEB-INF/lib/jta-1.0.1B.jar"/>
+      <url>jar://D:/Apps/repository/appfuse/javax/transaction/jta/1.0.1B/jta-1.0.1B.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1"/>
+      <attribute name="URI" value="/WEB-INF/lib/asm-attrs-1.5.3.jar"/>
+      <url>jar://D:/Apps/repository/appfuse/asm/asm-attrs/1.5.3/asm-attrs-1.5.3.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1"/>
+      <attribute name="URI" value="/WEB-INF/lib/dom4j-1.6.1.jar"/>
+      <url>jar://D:/Apps/repository/appfuse/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1"/>
+      <attribute name="URI" value="/WEB-INF/lib/antlr-2.7.6.jar"/>
+      <url>jar://D:/Apps/repository/appfuse/antlr/antlr/2.7.6/antlr-2.7.6.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1"/>
+      <attribute name="URI" value="/WEB-INF/lib/cglib-2.1_3.jar"/>
+      <url>jar://D:/Apps/repository/appfuse/cglib/cglib/2.1_3/cglib-2.1_3.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1"/>
+      <attribute name="URI" value="/WEB-INF/lib/asm-1.5.3.jar"/>
+      <url>jar://D:/Apps/repository/appfuse/asm/asm/1.5.3/asm-1.5.3.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1"/>
+      <attribute name="URI" value="/WEB-INF/lib/spring-aspects-2.5.4.jar"/>
+      <url>jar://D:/Apps/repository/appfuse/org/springframework/spring-aspects/2.5.4/spring-aspects-2.5.4.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1"/>
+      <attribute name="URI" value="/WEB-INF/lib/aspectjrt-1.6.0.jar"/>
+      <url>jar://D:/Apps/repository/appfuse/org/aspectj/aspectjrt/1.6.0/aspectjrt-1.6.0.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1"/>
+      <attribute name="URI" value="/WEB-INF/lib/aspectjweaver-1.6.0.jar"/>
+      <url>jar://D:/Apps/repository/appfuse/org/aspectj/aspectjweaver/1.6.0/aspectjweaver-1.6.0.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1"/>
+      <attribute name="URI" value="/WEB-INF/lib/jmock-junit4-2.4.0.jar"/>
+      <url>jar://D:/Apps/repository/appfuse/org/jmock/jmock-junit4/2.4.0/jmock-junit4-2.4.0.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1"/>
+      <attribute name="URI" value="/WEB-INF/lib/jmock-2.4.0.jar"/>
+      <url>jar://D:/Apps/repository/appfuse/org/jmock/jmock/2.4.0/jmock-2.4.0.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1"/>
+      <attribute name="URI" value="/WEB-INF/lib/hamcrest-core-1.1.jar"/>
+      <url>jar://D:/Apps/repository/appfuse/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1"/>
+      <attribute name="URI" value="/WEB-INF/lib/hamcrest-library-1.1.jar"/>
+      <url>jar://D:/Apps/repository/appfuse/org/hamcrest/hamcrest-library/1.1/hamcrest-library-1.1.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1"/>
+      <attribute name="URI" value="/WEB-INF/lib/junit-dep-4.4.jar"/>
+      <url>jar://D:/Apps/repository/appfuse/junit/junit-dep/4.4/junit-dep-4.4.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="0"/>
+      <attribute name="URI" value="/WEB-INF/lib/subethasmtp-wiser-1.2.jar"/>
+      <url>jar://D:/Apps/repository/appfuse/org/subethamail/subethasmtp-wiser/1.2/subethasmtp-wiser-1.2.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="0"/>
+      <attribute name="URI" value="/WEB-INF/lib/subethasmtp-smtp-1.2.jar"/>
+      <url>jar://D:/Apps/repository/appfuse/org/subethamail/subethasmtp-smtp/1.2/subethasmtp-smtp-1.2.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1"/>
+      <attribute name="URI" value="/WEB-INF/lib/mail-1.4.jar"/>
+      <url>jar://D:/Apps/repository/appfuse/javax/mail/mail/1.4/mail-1.4.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1"/>
+      <attribute name="URI" value="/WEB-INF/lib/activation-1.1.jar"/>
+      <url>jar://D:/Apps/repository/appfuse/javax/activation/activation/1.1/activation-1.1.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1"/>
+      <attribute name="URI" value="/WEB-INF/lib/spring-webmvc-2.5.4.jar"/>
+      <url>jar://D:/Apps/repository/appfuse/org/springframework/spring-webmvc/2.5.4/spring-webmvc-2.5.4.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1"/>
+      <attribute name="URI" value="/WEB-INF/lib/spring-context-support-2.5.4.jar"/>
+      <url>jar://D:/Apps/repository/appfuse/org/springframework/spring-context-support/2.5.4/spring-context-support-2.5.4.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1"/>
+      <attribute name="URI" value="/WEB-INF/lib/spring-web-2.5.4.jar"/>
+      <url>jar://D:/Apps/repository/appfuse/org/springframework/spring-web/2.5.4/spring-web-2.5.4.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1"/>
+      <attribute name="URI" value="/WEB-INF/lib/sitemesh-2.2.1.jar"/>
+      <url>jar://D:/Apps/repository/appfuse/opensymphony/sitemesh/2.2.1/sitemesh-2.2.1.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1"/>
+      <attribute name="URI" value="/WEB-INF/lib/spring-test-2.5.4.jar"/>
+      <url>jar://D:/Apps/repository/appfuse/org/springframework/spring-test/2.5.4/spring-test-2.5.4.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1"/>
+      <attribute name="URI" value="/WEB-INF/lib/junit-4.4.jar"/>
+      <url>jar://D:/Apps/repository/appfuse/junit/junit/4.4/junit-4.4.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1"/>
+      <attribute name="URI" value="/WEB-INF/lib/jstl-1.1.2.jar"/>
+      <url>jar://D:/Apps/repository/appfuse/javax/servlet/jstl/1.1.2/jstl-1.1.2.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1"/>
+      <attribute name="URI" value="/WEB-INF/lib/commons-beanutils-1.7.0.jar"/>
+      <url>jar://D:/Apps/repository/appfuse/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1"/>
+      <attribute name="URI" value="/WEB-INF/lib/mysql-connector-java-5.0.5.jar"/>
+      <url>jar://D:/Apps/repository/appfuse/mysql/mysql-connector-java/5.0.5/mysql-connector-java-5.0.5.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1"/>
+      <attribute name="URI" value="/WEB-INF/lib/ehcache-1.4.1.jar"/>
+      <url>jar://D:/Apps/repository/appfuse/net/sf/ehcache/ehcache/1.4.1/ehcache-1.4.1.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1"/>
+      <attribute name="URI" value="/WEB-INF/lib/jsr107cache-1.0.jar"/>
+      <url>jar://D:/Apps/repository/appfuse/net/sf/jsr107cache/jsr107cache/1.0/jsr107cache-1.0.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1"/>
+      <attribute name="URI" value="/WEB-INF/lib/backport-util-concurrent-3.1.jar"/>
+      <url>jar://D:/Apps/repository/appfuse/backport-util-concurrent/backport-util-concurrent/3.1/backport-util-concurrent-3.1.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1"/>
+      <attribute name="URI" value="/WEB-INF/lib/commons-fileupload-1.2.1.jar"/>
+      <url>jar://D:/Apps/repository/appfuse/commons-fileupload/commons-fileupload/1.2.1/commons-fileupload-1.2.1.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1"/>
+      <attribute name="URI" value="/WEB-INF/lib/clickstream-1.0.2.jar"/>
+      <url>jar://D:/Apps/repository/appfuse/opensymphony/clickstream/1.0.2/clickstream-1.0.2.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1"/>
+      <attribute name="URI" value="/WEB-INF/lib/hibernate-commons-annotations-3.3.0.ga.jar"/>
+      <url>jar://D:/Apps/repository/appfuse/org/hibernate/hibernate-commons-annotations/3.3.0.ga/hibernate-commons-annotations-3.3.0.ga.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1"/>
+      <attribute name="URI" value="/WEB-INF/lib/persistence-api-1.0.jar"/>
+      <url>jar://D:/Apps/repository/appfuse/javax/persistence/persistence-api/1.0/persistence-api-1.0.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1"/>
+      <attribute name="URI" value="/WEB-INF/lib/urlrewritefilter-3.0.4.jar"/>
+      <url>jar://D:/Apps/repository/appfuse/org/tuckey/urlrewritefilter/3.0.4/urlrewritefilter-3.0.4.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1"/>
+      <attribute name="URI" value="/WEB-INF/lib/spring-orm-2.5.4.jar"/>
+      <url>jar://D:/Apps/repository/appfuse/org/springframework/spring-orm/2.5.4/spring-orm-2.5.4.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1"/>
+      <attribute name="URI" value="/WEB-INF/lib/commons-dbcp-1.2.1.jar"/>
+      <url>jar://D:/Apps/repository/appfuse/commons-dbcp/commons-dbcp/1.2.1/commons-dbcp-1.2.1.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1"/>
+      <attribute name="URI" value="/WEB-INF/lib/commons-pool-1.2.jar"/>
+      <url>jar://D:/Apps/repository/appfuse/commons-pool/commons-pool/1.2/commons-pool-1.2.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1"/>
+      <attribute name="URI" value="/WEB-INF/lib/xml-apis-1.0.b2.jar"/>
+      <url>jar://D:/Apps/repository/appfuse/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1"/>
+      <attribute name="URI" value="/WEB-INF/lib/displaytag-1.1.1.jar"/>
+      <url>jar://D:/Apps/repository/appfuse/displaytag/displaytag/1.1.1/displaytag-1.1.1.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1"/>
+      <attribute name="URI" value="/WEB-INF/lib/commons-lang-2.3.jar"/>
+      <url>jar://D:/Apps/repository/appfuse/commons-lang/commons-lang/2.3/commons-lang-2.3.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1"/>
+      <attribute name="URI" value="/WEB-INF/lib/itext-1.3.jar"/>
+      <url>jar://D:/Apps/repository/appfuse/com/lowagie/itext/1.3/itext-1.3.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1"/>
+      <attribute name="URI" value="/WEB-INF/lib/jcl104-over-slf4j-1.4.2.jar"/>
+      <url>jar://D:/Apps/repository/appfuse/org/slf4j/jcl104-over-slf4j/1.4.2/jcl104-over-slf4j-1.4.2.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1"/>
+      <attribute name="URI" value="/WEB-INF/lib/slf4j-log4j12-1.4.2.jar"/>
+      <url>jar://D:/Apps/repository/appfuse/org/slf4j/slf4j-log4j12/1.4.2/slf4j-log4j12-1.4.2.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1"/>
+      <attribute name="URI" value="/WEB-INF/lib/slf4j-api-1.4.2.jar"/>
+      <url>jar://D:/Apps/repository/appfuse/org/slf4j/slf4j-api/1.4.2/slf4j-api-1.4.2.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1"/>
+      <attribute name="URI" value="/WEB-INF/lib/standard-1.1.2.jar"/>
+      <url>jar://D:/Apps/repository/appfuse/taglibs/standard/1.1.2/standard-1.1.2.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1"/>
+      <attribute name="URI" value="/WEB-INF/lib/struts-menu-2.4.3.jar"/>
+      <url>jar://D:/Apps/repository/appfuse/struts-menu/struts-menu/2.4.3/struts-menu-2.4.3.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1"/>
+      <attribute name="URI" value="/WEB-INF/lib/commons-digester-1.7.jar"/>
+      <url>jar://D:/Apps/repository/appfuse/commons-digester/commons-digester/1.7/commons-digester-1.7.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1"/>
+      <attribute name="URI" value="/WEB-INF/lib/velocity-1.4.jar"/>
+      <url>jar://D:/Apps/repository/appfuse/velocity/velocity/1.4/velocity-1.4.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1"/>
+      <attribute name="URI" value="/WEB-INF/lib/velocity-dep-1.4.jar"/>
+      <url>jar://D:/Apps/repository/appfuse/velocity/velocity-dep/1.4/velocity-dep-1.4.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1"/>
+      <attribute name="URI" value="/WEB-INF/lib/velocity-tools-view-1.0.jar"/>
+      <url>jar://D:/Apps/repository/appfuse/velocity-tools/velocity-tools-view/1.0/velocity-tools-view-1.0.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1"/>
+      <attribute name="URI" value="/WEB-INF/lib/oscache-2.3.jar"/>
+      <url>jar://D:/Apps/repository/appfuse/opensymphony/oscache/2.3/oscache-2.3.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1"/>
+      <attribute name="URI" value="/WEB-INF/lib/commons-io-1.3.2.jar"/>
+      <url>jar://D:/Apps/repository/appfuse/org/apache/commons/commons-io/1.3.2/commons-io-1.3.2.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1"/>
+      <attribute name="URI" value="/WEB-INF/lib/struts2-core-2.0.11.1.jar"/>
+      <url>jar://D:/Apps/repository/appfuse/org/apache/struts/struts2-core/2.0.11.1/struts2-core-2.0.11.1.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1"/>
+      <attribute name="URI" value="/WEB-INF/lib/xwork-2.0.4.jar"/>
+      <url>jar://D:/Apps/repository/appfuse/com/opensymphony/xwork/2.0.4/xwork-2.0.4.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1"/>
+      <attribute name="URI" value="/WEB-INF/lib/ognl-2.6.11.jar"/>
+      <url>jar://D:/Apps/repository/appfuse/opensymphony/ognl/2.6.11/ognl-2.6.11.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1"/>
+      <attribute name="URI" value="/WEB-INF/lib/freemarker-2.3.8.jar"/>
+      <url>jar://D:/Apps/repository/appfuse/freemarker/freemarker/2.3.8/freemarker-2.3.8.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="0"/>
+      <attribute name="URI" value="/WEB-INF/lib/tools.jar"/>
+      <url>jar://C:/Program Files/Java/jdk1.5.0_17/jre/../lib/tools.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1"/>
+      <attribute name="URI" value="/WEB-INF/lib/xfire-java5-1.2.6.jar"/>
+      <url>jar://D:/Apps/repository/appfuse/org/codehaus/xfire/xfire-java5/1.2.6/xfire-java5-1.2.6.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1"/>
+      <attribute name="URI" value="/WEB-INF/lib/xfire-aegis-1.2.6.jar"/>
+      <url>jar://D:/Apps/repository/appfuse/org/codehaus/xfire/xfire-aegis/1.2.6/xfire-aegis-1.2.6.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1"/>
+      <attribute name="URI" value="/WEB-INF/lib/xfire-core-1.2.6.jar"/>
+      <url>jar://D:/Apps/repository/appfuse/org/codehaus/xfire/xfire-core/1.2.6/xfire-core-1.2.6.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1"/>
+      <attribute name="URI" value="/WEB-INF/lib/wsdl4j-1.6.1.jar"/>
+      <url>jar://D:/Apps/repository/appfuse/wsdl4j/wsdl4j/1.6.1/wsdl4j-1.6.1.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1"/>
+      <attribute name="URI" value="/WEB-INF/lib/stax-api-1.0.1.jar"/>
+      <url>jar://D:/Apps/repository/appfuse/stax/stax-api/1.0.1/stax-api-1.0.1.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1"/>
+      <attribute name="URI" value="/WEB-INF/lib/wstx-asl-3.2.0.jar"/>
+      <url>jar://D:/Apps/repository/appfuse/org/codehaus/woodstox/wstx-asl/3.2.0/wstx-asl-3.2.0.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1"/>
+      <attribute name="URI" value="/WEB-INF/lib/jdom-1.0.jar"/>
+      <url>jar://D:/Apps/repository/appfuse/jdom/jdom/1.0/jdom-1.0.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1"/>
+      <attribute name="URI" value="/WEB-INF/lib/commons-httpclient-3.0.jar"/>
+      <url>jar://D:/Apps/repository/appfuse/commons-httpclient/commons-httpclient/3.0/commons-httpclient-3.0.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1"/>
+      <attribute name="URI" value="/WEB-INF/lib/stax-utils-20040917.jar"/>
+      <url>jar://D:/Apps/repository/appfuse/net/java/dev/stax-utils/stax-utils/20040917/stax-utils-20040917.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1"/>
+      <attribute name="URI" value="/WEB-INF/lib/xfire-annotations-1.2.6.jar"/>
+      <url>jar://D:/Apps/repository/appfuse/org/codehaus/xfire/xfire-annotations/1.2.6/xfire-annotations-1.2.6.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1"/>
+      <attribute name="URI" value="/WEB-INF/lib/xfire-jsr181-api-1.0-M1.jar"/>
+      <url>jar://D:/Apps/repository/appfuse/xfire/xfire-jsr181-api/1.0-M1/xfire-jsr181-api-1.0-M1.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1"/>
+      <attribute name="URI" value="/WEB-INF/lib/struts2-spring-plugin-2.0.11.1.jar"/>
+      <url>jar://D:/Apps/repository/appfuse/org/apache/struts/struts2-spring-plugin/2.0.11.1/struts2-spring-plugin-2.0.11.1.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1"/>
+      <attribute name="URI" value="/WEB-INF/lib/dwr-2.0.1.jar"/>
+      <url>jar://D:/Apps/repository/appfuse/org/directwebremoting/dwr/2.0.1/dwr-2.0.1.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1"/>
+      <attribute name="URI" value="/WEB-INF/lib/struts2-codebehind-plugin-2.0.11.1.jar"/>
+      <url>jar://D:/Apps/repository/appfuse/org/apache/struts/struts2-codebehind-plugin/2.0.11.1/struts2-codebehind-plugin-2.0.11.1.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1"/>
+      <attribute name="URI" value="/WEB-INF/lib/xfire-spring-1.2.6.jar"/>
+      <url>jar://D:/Apps/repository/appfuse/org/codehaus/xfire/xfire-spring/1.2.6/xfire-spring-1.2.6.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1"/>
+      <attribute name="URI" value="/WEB-INF/lib/xbean-spring-2.8.jar"/>
+      <url>jar://D:/Apps/repository/appfuse/org/apache/xbean/xbean-spring/2.8/xbean-spring-2.8.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1"/>
+      <attribute name="URI" value="/WEB-INF/lib/xfire-xmlbeans-1.2.6.jar"/>
+      <url>jar://D:/Apps/repository/appfuse/org/codehaus/xfire/xfire-xmlbeans/1.2.6/xfire-xmlbeans-1.2.6.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1"/>
+      <attribute name="URI" value="/WEB-INF/lib/xbean-2.2.0.jar"/>
+      <url>jar://D:/Apps/repository/appfuse/xmlbeans/xbean/2.2.0/xbean-2.2.0.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1"/>
+      <attribute name="URI" value="/WEB-INF/lib/hibernate-annotations-3.3.0.ga.jar"/>
+      <url>jar://D:/Apps/repository/appfuse/org/hibernate/hibernate-annotations/3.3.0.ga/hibernate-annotations-3.3.0.ga.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1"/>
+      <attribute name="URI" value="/WEB-INF/lib/spring-security-taglibs-2.0.1.jar"/>
+      <url>jar://D:/Apps/repository/appfuse/org/springframework/security/spring-security-taglibs/2.0.1/spring-security-taglibs-2.0.1.jar!/</url>
+    </containerElement>
+    <containerElement type="library" level="module">
+      <attribute name="method" value="1"/>
+      <attribute name="URI" value="/WEB-INF/lib/spring-security-acl-2.0.1.jar"/>
+      <url>jar://D:/Apps/repository/appfuse/org/springframework/security/spring-security-acl/2.0.1/spring-security-acl-2.0.1.jar!/</url>
+    </containerElement>
+    <deploymentDescriptor version="2.3" name="web.xml" optional="false" url="file://$MODULE_DIR$/src/main/webapp/WEB-INF/web.xml"/>
+    <webroots>
+      <root relative="/" url="file://$MODULE_DIR$/src/main/webapp"/>
+    </webroots>
+  </component>
+</module>

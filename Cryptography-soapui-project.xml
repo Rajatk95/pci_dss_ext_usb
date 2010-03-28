@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:soapui-project name="Cryptography" soapui-version="3.5" abortOnError="false" runType="SEQUENTIAL" xmlns:con="http://eviware.com/soapui/config"><con:settings/><con:interface xsi:type="con:WsdlInterface" wsaVersion="NONE" name="CryptographyHttpBinding" type="wsdl" bindingName="{http://crypto.citp.emirates.com}CryptographyHttpBinding" soapVersion="1_1" anonymous="optional" definition="http://localhost:9080/citpservices/services/Cryptography?wsdl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache type="TEXT" rootPart="http://localhost:9080/citpservices/services/Cryptography?wsdl"><con:part><con:url>http://localhost:9080/citpservices/services/Cryptography?wsdl</con:url><con:content><![CDATA[<wsdl:definitions targetNamespace="http://crypto.citp.emirates.com" xmlns:tns="http://crypto.citp.emirates.com" xmlns:wsdlsoap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://www.w3.org/2003/05/soap-envelope" xmlns:ns1="http://security.java" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenc11="http://schemas.xmlsoap.org/soap/encoding/" xmlns:soapenc12="http://www.w3.org/2003/05/soap-encoding" xmlns:soap11="http://schemas.xmlsoap.org/soap/envelope/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://crypto.citp.emirates.com">
+      <xsd:element name="encrypt">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element maxOccurs="1" minOccurs="1" name="in0" nillable="true" type="xsd:string"/>
+            <xsd:element maxOccurs="1" minOccurs="1" name="in1" nillable="true" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="encryptResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element maxOccurs="1" minOccurs="1" name="out" nillable="true" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="reintialize">
+        <xsd:complexType/>
+      </xsd:element>
+      <xsd:element name="reintializeResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element maxOccurs="1" minOccurs="1" name="out" nillable="true" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="hash">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element maxOccurs="1" minOccurs="1" name="in0" nillable="true" type="xsd:string"/>
+            <xsd:element maxOccurs="1" minOccurs="1" name="in1" nillable="true" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="hashResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element maxOccurs="1" minOccurs="1" name="out" nillable="true" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="NoSuchProviderException" type="ns1:NoSuchProviderException"/>
+      <xsd:element name="NoSuchAlgorithmException" type="ns1:NoSuchAlgorithmException"/>
+      <xsd:element name="decrypt">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element maxOccurs="1" minOccurs="1" name="in0" nillable="true" type="xsd:string"/>
+            <xsd:element maxOccurs="1" minOccurs="1" name="in1" nillable="true" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="decryptResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element maxOccurs="1" minOccurs="1" name="out" nillable="true" type="xsd:string"/>
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+    </xsd:schema>
+    <xsd:schema attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://security.java">
+      <xsd:complexType name="NoSuchProviderException"/>
+      <xsd:complexType name="NoSuchAlgorithmException"/>
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="decryptRequest">
+    <wsdl:part name="parameters" element="tns:decrypt"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="reintializeRequest">
+    <wsdl:part name="parameters" element="tns:reintialize"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="encryptRequest">
+    <wsdl:part name="parameters" element="tns:encrypt"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="encryptResponse">
+    <wsdl:part name="parameters" element="tns:encryptResponse"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="hashRequest">
+    <wsdl:part name="parameters" element="tns:hash"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="decryptResponse">
+    <wsdl:part name="parameters" element="tns:decryptResponse"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="reintializeResponse">
+    <wsdl:part name="parameters" element="tns:reintializeResponse"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="NoSuchProviderException">
+    <wsdl:part name="NoSuchProviderException" element="tns:NoSuchProviderException"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="hashResponse">
+    <wsdl:part name="parameters" element="tns:hashResponse"></wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="NoSuchAlgorithmException">
+    <wsdl:part name="NoSuchAlgorithmException" element="tns:NoSuchAlgorithmException"></wsdl:part>
+  </wsdl:message>
+  <wsdl:portType name="CryptographyPortType">
+    <wsdl:operation name="encrypt">
+      <wsdl:input name="encryptRequest" message="tns:encryptRequest"></wsdl:input>
+      <wsdl:output name="encryptResponse" message="tns:encryptResponse"></wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="reintialize">
+      <wsdl:input name="reintializeRequest" message="tns:reintializeRequest"></wsdl:input>
+      <wsdl:output name="reintializeResponse" message="tns:reintializeResponse"></wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="hash">
+      <wsdl:input name="hashRequest" message="tns:hashRequest"></wsdl:input>
+      <wsdl:output name="hashResponse" message="tns:hashResponse"></wsdl:output>
+      <wsdl:fault name="NoSuchProviderException" message="tns:NoSuchProviderException"></wsdl:fault>
+      <wsdl:fault name="NoSuchAlgorithmException" message="tns:NoSuchAlgorithmException"></wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="decrypt">
+      <wsdl:input name="decryptRequest" message="tns:decryptRequest"></wsdl:input>
+      <wsdl:output name="decryptResponse" message="tns:decryptResponse"></wsdl:output>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="CryptographyHttpBinding" type="tns:CryptographyPortType">
+    <wsdlsoap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="encrypt">
+      <wsdlsoap:operation soapAction=""/>
+      <wsdl:input name="encryptRequest">
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="encryptResponse">
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="reintialize">
+      <wsdlsoap:operation soapAction=""/>
+      <wsdl:input name="reintializeRequest">
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="reintializeResponse">
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="hash">
+      <wsdlsoap:operation soapAction=""/>
+      <wsdl:input name="hashRequest">
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="hashResponse">
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+      <wsdl:fault name="NoSuchProviderException">
+        <wsdlsoap:fault name="NoSuchProviderException" use="literal"/>
+      </wsdl:fault>
+      <wsdl:fault name="NoSuchAlgorithmException">
+        <wsdlsoap:fault name="NoSuchAlgorithmException" use="literal"/>
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="decrypt">
+      <wsdlsoap:operation soapAction=""/>
+      <wsdl:input name="decryptRequest">
+        <wsdlsoap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="decryptResponse">
+        <wsdlsoap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Cryptography">
+    <wsdl:port name="CryptographyHttpPort" binding="tns:CryptographyHttpBinding">
+      <wsdlsoap:address location="http://localhost:9080/citpservices/services/Cryptography"/>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>]]></con:content><con:type>http://schemas.xmlsoap.org/wsdl/</con:type></con:part></con:definitionCache><con:endpoints><con:endpoint>https://localhost:8443/citpservices/services/Cryptography</con:endpoint><con:endpoint>http://localhost:9080/citpservices/services/Cryptography</con:endpoint></con:endpoints><con:operation isOneWay="false" action="" name="decrypt" bindingOperationName="decrypt" type="Request-Response" outputName="decryptResponse" inputName="decryptRequest" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call name="Request 1"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://localhost:8443/citpservices/services/Cryptography</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cry="http://crypto.citp.emirates.com">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <cry:decrypt>
+         <cry:in0>sampleAppl</cry:in0>
+         <cry:in3>bad78c18907467a7be3b8390f0074a39</cry:in3>
+      </cry:decrypt>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://crypto.citp.emirates.com/CryptographyPortType/decryptRequest"/><con:wsrmConfig version="1.2"/></con:call></con:operation><con:operation isOneWay="false" action="" name="encrypt" bindingOperationName="encrypt" type="Request-Response" outputName="encryptResponse" inputName="encryptRequest" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call name="Request 1"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://localhost:8443/citpservices/services/Cryptography</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cry="http://crypto.citp.emirates.com">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <cry:encrypt>
+         <cry:in0>SampleAppKey</cry:in0>
+         <cry:in3>Sample Text</cry:in3>
+      </cry:encrypt>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://crypto.citp.emirates.com/CryptographyPortType/encryptRequest"/><con:wsrmConfig version="1.2"/></con:call></con:operation><con:operation isOneWay="false" action="" name="hash" bindingOperationName="hash" type="Request-Response" outputName="hashResponse" inputName="hashRequest" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call name="Request 1"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://localhost:9080/citpservices/services/Cryptography</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cry="http://crypto.citp.emirates.com">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <cry:hash>
+         <cry:in0>sampleAppl</cry:in0>
+         <cry:in1>asd</cry:in1>
+         <cry:in2>asd</cry:in2>
+         <cry:in3>asdfsd</cry:in3>
+      </cry:hash>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://crypto.citp.emirates.com/CryptographyPortType/hashRequest"/><con:wsrmConfig version="1.2"/></con:call></con:operation><con:operation isOneWay="false" action="" name="reintialize" bindingOperationName="reintialize" type="Request-Response" outputName="reintializeResponse" inputName="reintializeRequest" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://localhost:9080/citpservices/services/Cryptography</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:cry="http://crypto.citp.emirates.com">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <cry:reintialize/>
+   </soapenv:Body>
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://crypto.citp.emirates.com/CryptographyPortType/reintializeRequest"/></con:call></con:operation></con:interface><con:properties/><con:wssContainer/></con:soapui-project>

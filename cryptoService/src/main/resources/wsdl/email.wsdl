@@ -1,0 +1,92 @@
+<definitions targetNamespace="http://emirates.org/citp/email/"
+   xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" 
+   xmlns="http://schemas.xmlsoap.org/wsdl/" 
+   xmlns:ns="http://emirates.org/citp/email/types/" 
+   xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" 
+   xmlns:xs="http://www.w3.org/2001/XMLSchema"
+   xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" 
+   xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" 
+   xmlns:y="http://emirates.org/citp/email/">
+   
+  <types>
+    <xs:schema attributeFormDefault="unqualified" 
+  	elementFormDefault="unqualified" 
+  	targetNamespace="http://emirates.org/citp/email/types/" 
+  	xmlns="http://emirates.org/citp/email/types/">
+        <xs:complexType name="EmailInput" >
+          <xs:sequence>
+          		<xs:element name="From" type="xs:string" />
+          		<xs:element name="userName" type="xs:string" />
+          		<xs:element name="password" type="xs:string" />
+          		<xs:element name="Subject" type="xs:string" />
+          		<xs:element name="To" type="EmailTo" minOccurs="0" />
+                <xs:element name="Cc" type="EmailCc"  minOccurs="0" />
+                <xs:element name="Bcc" type="EmailBcc"  minOccurs="0" />
+                <xs:element name="attachment" type="xs:base64Binary" minOccurs="0" maxOccurs="unbounded" />
+                <xs:element name="templateData" type="xs:base64Binary" />
+                <xs:element name="plainData" type="xs:string" minOccurs="0" />
+                <xs:element name="templateIndicator" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+        </xs:complexType>
+        
+        <xs:complexType name="EmailTo" >
+            <xs:sequence>
+                <xs:element name="to" type="xs:string" minOccurs="0" maxOccurs="unbounded" /> 
+            </xs:sequence>
+        </xs:complexType>
+        
+        <xs:complexType name="EmailCc">
+            <xs:sequence>
+                <xs:element name="cc" type="xs:string" minOccurs="0" maxOccurs="unbounded" /> 
+            </xs:sequence>
+        </xs:complexType>
+        
+        <xs:complexType name="EmailBcc">
+            <xs:sequence>
+                <xs:element name="bcc" type="xs:string" minOccurs="0" maxOccurs="unbounded" /> 
+            </xs:sequence>
+        </xs:complexType>
+        
+        <xs:complexType name="EmailOutput">
+            <xs:sequence>
+                <xs:element name="result" type="xs:string" />
+                <xs:element name="error" type="xs:string" /> 
+            </xs:sequence>
+        </xs:complexType>
+        <xs:element name="Email" type="EmailInput" /> 
+        <xs:element name="EmailResponse" type="EmailOutput" /> 
+    </xs:schema>
+  </types>
+  
+  <message name="EmailMessage">
+    <part name="parameters" element="ns:Email" /> 
+  </message>
+
+  <message name="EmailResponseMessage">
+    <part name="parameters" element="ns:EmailResponse" /> 
+  </message>
+  
+  <portType name="NotifyEmailInterface">
+     <operation name="NotifyEmail">
+         <input message="y:EmailMessage" /> 
+         <output message="y:EmailResponseMessage" /> 
+    </operation>
+  </portType>
+<binding name="NotifyEmailHttpBinding" type="y:NotifyEmailInterface">
+	<soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/> 
+		<operation name="NotifyEmail">
+	<soap:operation soapAction="http://emirates.org/citp/email/"/> 
+	   <input>
+		<soap:body use="literal"/> 
+	   </input>
+	   <output>
+		<soap:body use="literal" /> 
+	   </output>
+	</operation>
+</binding>
+<service name="NotifyEmailService">
+    <port name="NotifyEmailEndpoint" binding="y:NotifyEmailHttpBinding">
+         <soap:address location="http://localhost:8080/axis2/services/EmailService" /> 
+    </port>
+</service>
+</definitions>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vehicleRental xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="file:/D:/workspace1/EmailNotificationService/schema/vehicleRental.xsd">
+    <rentalInfo>New Service - Booking on Request (RQ)</rentalInfo>
+    <serviceReference>3567231/12</serviceReference>
+    <service>AVIS UAE (AEALLLXBUR)</service>
+    <category>Intermediate 4 Door Auto Toyota Camry (ICAR)</category>
+    <depoCode>A101</depoCode>
+    <pickUpCity>Dubai</pickUpCity>
+    <pickUpCountry>UAE</pickUpCountry>
+    <pickUpDepot>Dubai International Airport DXB Terminal 1</pickUpDepot>
+    <pickUpDate>15-Mar-08 / 13:10</pickUpDate>
+    <dropUpDepot>Dubai International Airport DXB Terminal 1</dropUpDepot>
+    <dropUpDate>18-Mar-08 / 13:10</dropUpDate>
+    <dates>15Apr08 to 18Apr08 (3 Days)</dates>
+    <units>1</units>
+    <paxTotal>2 Adults</paxTotal>
+    <paxAllocation>
+        <pax>Mr Thomas/Joy  Adult (Sr No. 1)</pax>
+        <pax>Mr Ashok/A  Adult (Sr No. 2)</pax>
+        
+    </paxAllocation>
+    <supplements/>
+    <remarks>
+        <remark>Remarks from service lines</remark>
+        
+    </remarks>
+    <hints>
+        <hint>Hints from Package level</hint>
+        <hint>Hints from Service level</hint>
+        <hint>Hints from Category level</hint>
+        <hint>Hints from Supplier level</hint>
+    </hints>
+    <flightInformation>EK545    MAA-DXB     EK 545    15Apr08 06:20 hrs   15Apr08 12:30 hrs</flightInformation>
+</vehicleRental>
